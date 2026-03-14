@@ -1,0 +1,2160 @@
+2026-03-09 21:21:17,380 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 21:21:17,381 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 21:21:17,381 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 21:21:18,647 - websocket - INFO - Websocket connected
+2026-03-09 21:21:18,647 - __main__ - INFO - WebSocket connection opened
+2026-03-09 21:21:18,704 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 21:21:49,043 - __main__ - INFO - WebSocket disconnected
+2026-03-09 21:21:49,044 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 21:21:49,044 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 21:21:49,044 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 21:21:49,044 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 21:21:49,045 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 21:21:50,144 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 21:21:50,841 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 21:21:50,844 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 21:21:50,844 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 21:21:52,067 - websocket - INFO - Websocket connected
+2026-03-09 21:21:52,068 - __main__ - INFO - WebSocket connection opened
+2026-03-09 21:21:52,068 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 21:21:52,068 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 21:21:58,587 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 21:21:58,587 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 21:22:02,379 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 21:22:02,379 - __main__ - INFO - WebSocket disconnected
+2026-03-09 21:22:02,379 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 21:22:02,380 - __main__ - INFO - Data fetcher stopped
+2026-03-09 21:42:40,044 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 21:42:40,045 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 21:42:40,045 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 21:42:41,351 - websocket - INFO - Websocket connected
+2026-03-09 21:42:41,351 - __main__ - INFO - WebSocket connection opened
+2026-03-09 21:42:41,355 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 21:43:11,525 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 21:43:11,525 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 21:43:11,707 - __main__ - INFO - WebSocket disconnected
+2026-03-09 21:43:11,707 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 21:43:11,708 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 21:43:11,708 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 21:43:11,708 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 21:43:11,708 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 21:43:12,675 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 21:43:13,302 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 21:43:13,304 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 21:43:13,304 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 21:43:14,530 - websocket - INFO - Websocket connected
+2026-03-09 21:43:14,530 - __main__ - INFO - WebSocket connection opened
+2026-03-09 21:43:14,532 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 21:43:14,532 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 21:43:16,529 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 21:43:17,775 - websocket - INFO - Websocket connected
+2026-03-09 21:43:17,775 - __main__ - INFO - WebSocket connection opened
+2026-03-09 21:43:17,848 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 21:43:24,888 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 21:43:24,888 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 21:43:24,888 - __main__ - INFO - WebSocket disconnected
+2026-03-09 21:43:24,889 - __main__ - INFO - Data fetcher stopped
+2026-03-09 21:43:24,960 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 21:43:24,960 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 21:43:24,960 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 21:43:24,960 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 21:43:24,961 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 21:43:24,961 - __main__ - INFO -   No signal: Deviation 0.097% within thresholds
+2026-03-09 21:43:24,961 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 21:43:24,961 - __main__ - INFO -   No signal: Deviation 0.094% within thresholds
+2026-03-09 21:43:24,961 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 21:43:24,961 - __main__ - INFO -   No signal: Deviation 0.089% within thresholds
+2026-03-09 21:43:24,962 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 21:43:24,962 - __main__ - INFO -   No signal: Deviation 0.078% within thresholds
+2026-03-09 21:43:24,962 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 21:43:24,962 - __main__ - INFO -   No signal: Deviation 0.064% within thresholds
+2026-03-09 21:43:24,962 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 21:43:24,962 - __main__ - INFO -   No signal: Deviation 0.050% within thresholds
+2026-03-09 21:43:24,962 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00125785 (confidence: 0.00%)
+2026-03-09 21:43:24,963 - __main__ - INFO -   No signal: Deviation -0.036% within thresholds
+2026-03-09 21:43:24,963 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99962414 (confidence: 0.00%)
+2026-03-09 21:43:24,963 - __main__ - INFO -   No signal: Deviation -0.198% within thresholds
+2026-03-09 21:43:24,963 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99866491 (confidence: 95.00%)
+2026-03-09 21:43:24,963 - __main__ - INFO -   Mean Reversion BUY: Price -0.281% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 21:43:24,963 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99872655 (confidence: 95.00%)
+2026-03-09 21:43:24,963 - __main__ - INFO -   Mean Reversion BUY: Price -0.258% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 21:43:24,964 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99962737 (confidence: 0.00%)
+2026-03-09 21:43:24,964 - __main__ - INFO -   No signal: Deviation -0.156% within thresholds
+2026-03-09 21:43:24,964 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99907387 (confidence: 95.00%)
+2026-03-09 21:43:24,964 - __main__ - INFO -   Mean Reversion BUY: Price -0.201% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 21:43:24,964 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99947953 (confidence: 0.00%)
+2026-03-09 21:43:24,964 - __main__ - INFO -   No signal: Deviation -0.152% within thresholds
+2026-03-09 21:43:24,965 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00020320 (confidence: 0.00%)
+2026-03-09 21:43:24,965 - __main__ - INFO -   No signal: Deviation -0.075% within thresholds
+2026-03-09 21:43:24,965 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99936871 (confidence: 0.00%)
+2026-03-09 21:43:24,965 - __main__ - INFO -   No signal: Deviation -0.147% within thresholds
+2026-03-09 21:43:24,965 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99805709 (confidence: 95.00%)
+2026-03-09 21:43:24,965 - __main__ - INFO -   Mean Reversion BUY: Price -0.261% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 21:43:24,965 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 21:43:24,965 - __main__ - INFO -   Mean Reversion BUY: Price -0.249% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 21:43:24,966 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 21:43:24,966 - __main__ - INFO -   Mean Reversion BUY: Price -0.229% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 21:43:24,966 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99857454 (confidence: 0.00%)
+2026-03-09 21:43:24,966 - __main__ - INFO -   No signal: Deviation -0.154% within thresholds
+2026-03-09 21:43:24,966 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99867625 (confidence: 0.00%)
+2026-03-09 21:43:24,966 - __main__ - INFO -   No signal: Deviation -0.129% within thresholds
+2026-03-09 21:43:24,966 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99919182 (confidence: 0.00%)
+2026-03-09 21:43:24,967 - __main__ - INFO -   No signal: Deviation -0.063% within thresholds
+2026-03-09 21:43:24,967 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99951358 (confidence: 0.00%)
+2026-03-09 21:43:24,969 - __main__ - INFO -   No signal: Deviation -0.019% within thresholds
+2026-03-09 21:43:24,969 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99879256 (confidence: 0.00%)
+2026-03-09 21:43:24,969 - __main__ - INFO -   No signal: Deviation -0.075% within thresholds
+2026-03-09 21:43:24,969 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 21:43:24,969 - __main__ - INFO -   No signal: Deviation -0.134% within thresholds
+2026-03-09 21:43:24,970 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 21:43:24,970 - __main__ - INFO -   No signal: Deviation -0.114% within thresholds
+2026-03-09 21:43:24,970 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99974892 (confidence: 0.00%)
+2026-03-09 21:43:24,970 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-09 21:43:24,970 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00011584 (confidence: 0.00%)
+2026-03-09 21:43:24,970 - __main__ - INFO -   No signal: Deviation 0.115% within thresholds
+2026-03-09 21:43:24,973 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99940330 (confidence: 0.00%)
+2026-03-09 21:43:24,973 - __main__ - INFO -   No signal: Deviation 0.044% within thresholds
+2026-03-09 21:43:24,973 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99927580 (confidence: 0.00%)
+2026-03-09 21:43:24,973 - __main__ - INFO -   No signal: Deviation 0.028% within thresholds
+2026-03-09 21:43:24,973 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99937268 (confidence: 0.00%)
+2026-03-09 21:43:24,973 - __main__ - INFO -   No signal: Deviation 0.035% within thresholds
+2026-03-09 21:43:24,974 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00017543 (confidence: 0.00%)
+2026-03-09 21:43:24,974 - __main__ - INFO -   No signal: Deviation 0.113% within thresholds
+2026-03-09 21:43:24,974 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99930052 (confidence: 0.00%)
+2026-03-09 21:43:24,974 - __main__ - INFO -   No signal: Deviation 0.024% within thresholds
+2026-03-09 21:43:24,975 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99907217 (confidence: 0.00%)
+2026-03-09 21:43:24,975 - __main__ - INFO -   No signal: Deviation 0.003% within thresholds
+2026-03-09 21:43:24,975 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99867126 (confidence: 0.00%)
+2026-03-09 21:43:24,975 - __main__ - INFO -   No signal: Deviation -0.029% within thresholds
+2026-03-09 21:43:24,975 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00014354 (confidence: 0.00%)
+2026-03-09 21:43:24,975 - __main__ - INFO -   No signal: Deviation 0.114% within thresholds
+2026-03-09 21:43:24,976 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00086536 (confidence: 0.00%)
+2026-03-09 21:43:24,976 - __main__ - INFO -   No signal: Deviation 0.172% within thresholds
+2026-03-09 21:43:24,976 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00141125 (confidence: 95.00%)
+2026-03-09 21:43:24,976 - __main__ - INFO -   Mean Reversion SELL: Price 0.210% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 21:43:24,979 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 21:43:24,980 - __main__ - INFO -   Mean Reversion SELL: Price 0.249% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 21:43:24,980 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00060623 (confidence: 0.00%)
+2026-03-09 21:43:24,980 - __main__ - INFO -   No signal: Deviation 0.099% within thresholds
+2026-03-09 21:43:24,980 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00083607 (confidence: 0.00%)
+2026-03-09 21:43:24,980 - __main__ - INFO -   No signal: Deviation 0.111% within thresholds
+2026-03-09 21:43:24,981 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00094914 (confidence: 0.00%)
+2026-03-09 21:43:24,981 - __main__ - INFO -   No signal: Deviation 0.114% within thresholds
+2026-03-09 21:43:24,981 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00114441 (confidence: 0.00%)
+2026-03-09 21:43:24,981 - __main__ - INFO -   No signal: Deviation 0.125% within thresholds
+2026-03-09 21:43:24,982 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99995510 (confidence: 0.00%)
+2026-03-09 21:43:24,982 - __main__ - INFO -   No signal: Deviation 0.000% within thresholds
+2026-03-09 21:43:24,982 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00066143 (confidence: 0.00%)
+2026-03-09 21:43:24,982 - __main__ - INFO -   No signal: Deviation 0.058% within thresholds
+2026-03-09 21:43:24,982 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00018371 (confidence: 0.00%)
+2026-03-09 21:43:24,983 - __main__ - INFO -   No signal: Deviation -0.001% within thresholds
+2026-03-09 21:43:24,983 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00083639 (confidence: 0.00%)
+2026-03-09 21:43:24,983 - __main__ - INFO -   No signal: Deviation 0.059% within thresholds
+2026-03-09 21:43:24,983 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00070576 (confidence: 0.00%)
+2026-03-09 21:43:24,983 - __main__ - INFO -   No signal: Deviation 0.043% within thresholds
+2026-03-09 21:43:24,983 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00081451 (confidence: 0.00%)
+2026-03-09 21:43:24,983 - __main__ - INFO -   No signal: Deviation 0.047% within thresholds
+2026-03-09 21:43:24,983 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00089449 (confidence: 0.00%)
+2026-03-09 21:43:24,984 - __main__ - INFO -   No signal: Deviation 0.046% within thresholds
+2026-03-09 21:43:24,984 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99969941 (confidence: 0.00%)
+2026-03-09 21:43:24,984 - __main__ - INFO -   No signal: Deviation -0.075% within thresholds
+2026-03-09 21:43:24,984 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99908062 (confidence: 0.00%)
+2026-03-09 21:43:24,984 - __main__ - INFO -   No signal: Deviation -0.131% within thresholds
+2026-03-09 21:43:24,984 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99815314 (confidence: 95.00%)
+2026-03-09 21:43:24,984 - __main__ - INFO -   Mean Reversion BUY: Price -0.218% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:05:09,656 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:05:09,656 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:05:09,656 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:05:10,918 - websocket - INFO - Websocket connected
+2026-03-09 22:05:10,919 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:05:10,983 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:05:41,342 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:05:41,343 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:05:41,343 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:05:41,343 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:05:41,343 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:05:41,343 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:05:42,538 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:05:43,279 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:05:43,281 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:05:43,281 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:05:44,507 - websocket - INFO - Websocket connected
+2026-03-09 22:05:44,507 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:05:44,607 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:05:44,607 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:05:50,550 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:05:50,550 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:05:54,951 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:05:54,951 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:05:54,952 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:05:54,952 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:05:55,023 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:05:55,024 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:05:55,024 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:05:55,024 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:05:55,024 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:05:55,024 - __main__ - INFO -   No signal: Deviation -0.117% within thresholds
+2026-03-09 22:05:55,025 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99886998 (confidence: 0.00%)
+2026-03-09 22:05:55,025 - __main__ - INFO -   No signal: Deviation -0.030% within thresholds
+2026-03-09 22:05:55,025 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99858986 (confidence: 0.00%)
+2026-03-09 22:05:55,025 - __main__ - INFO -   No signal: Deviation -0.052% within thresholds
+2026-03-09 22:05:55,025 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99868549 (confidence: 0.00%)
+2026-03-09 22:05:55,025 - __main__ - INFO -   No signal: Deviation -0.034% within thresholds
+2026-03-09 22:05:55,025 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99949779 (confidence: 0.00%)
+2026-03-09 22:05:55,026 - __main__ - INFO -   No signal: Deviation 0.049% within thresholds
+2026-03-09 22:05:55,026 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99867969 (confidence: 0.00%)
+2026-03-09 22:05:55,026 - __main__ - INFO -   No signal: Deviation -0.025% within thresholds
+2026-03-09 22:05:55,026 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99881373 (confidence: 0.00%)
+2026-03-09 22:05:55,026 - __main__ - INFO -   No signal: Deviation -0.006% within thresholds
+2026-03-09 22:05:55,026 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99829015 (confidence: 0.00%)
+2026-03-09 22:05:55,026 - __main__ - INFO -   No signal: Deviation -0.049% within thresholds
+2026-03-09 22:05:55,026 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99945627 (confidence: 0.00%)
+2026-03-09 22:05:55,027 - __main__ - INFO -   No signal: Deviation 0.077% within thresholds
+2026-03-09 22:05:55,027 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00033774 (confidence: 0.00%)
+2026-03-09 22:05:55,027 - __main__ - INFO -   No signal: Deviation 0.170% within thresholds
+2026-03-09 22:05:55,027 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99944473 (confidence: 0.00%)
+2026-03-09 22:05:55,027 - __main__ - INFO -   No signal: Deviation 0.084% within thresholds
+2026-03-09 22:05:55,027 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99927237 (confidence: 0.00%)
+2026-03-09 22:05:55,027 - __main__ - INFO -   No signal: Deviation 0.068% within thresholds
+2026-03-09 22:05:55,027 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99957090 (confidence: 0.00%)
+2026-03-09 22:05:55,028 - __main__ - INFO -   No signal: Deviation 0.090% within thresholds
+2026-03-09 22:05:55,028 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99924156 (confidence: 0.00%)
+2026-03-09 22:05:55,028 - __main__ - INFO -   No signal: Deviation 0.050% within thresholds
+2026-03-09 22:05:55,028 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00000088 (confidence: 0.00%)
+2026-03-09 22:05:55,028 - __main__ - INFO -   No signal: Deviation 0.116% within thresholds
+2026-03-09 22:05:55,028 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99966327 (confidence: 0.00%)
+2026-03-09 22:05:55,028 - __main__ - INFO -   No signal: Deviation 0.074% within thresholds
+2026-03-09 22:05:55,029 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99919958 (confidence: 0.00%)
+2026-03-09 22:05:55,029 - __main__ - INFO -   No signal: Deviation 0.022% within thresholds
+2026-03-09 22:05:55,029 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99992427 (confidence: 0.00%)
+2026-03-09 22:05:55,029 - __main__ - INFO -   No signal: Deviation 0.085% within thresholds
+2026-03-09 22:05:55,029 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00172110 (confidence: 95.00%)
+2026-03-09 22:05:55,029 - __main__ - INFO -   Mean Reversion SELL: Price 0.246% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:05:55,029 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00076563 (confidence: 0.00%)
+2026-03-09 22:05:55,029 - __main__ - INFO -   No signal: Deviation 0.137% within thresholds
+2026-03-09 22:05:55,030 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00066529 (confidence: 0.00%)
+2026-03-09 22:05:55,030 - __main__ - INFO -   No signal: Deviation 0.113% within thresholds
+2026-03-09 22:05:55,030 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922697 (confidence: 0.00%)
+2026-03-09 22:05:55,030 - __main__ - INFO -   No signal: Deviation -0.033% within thresholds
+2026-03-09 22:05:55,030 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99908531 (confidence: 0.00%)
+2026-03-09 22:05:55,030 - __main__ - INFO -   No signal: Deviation -0.049% within thresholds
+2026-03-09 22:05:55,030 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99963331 (confidence: 0.00%)
+2026-03-09 22:05:55,031 - __main__ - INFO -   No signal: Deviation 0.001% within thresholds
+2026-03-09 22:05:55,031 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99979364 (confidence: 0.00%)
+2026-03-09 22:05:55,031 - __main__ - INFO -   No signal: Deviation 0.015% within thresholds
+2026-03-09 22:05:55,031 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00044388 (confidence: 0.00%)
+2026-03-09 22:05:55,031 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-09 22:05:55,031 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00088368 (confidence: 0.00%)
+2026-03-09 22:05:55,031 - __main__ - INFO -   No signal: Deviation 0.105% within thresholds
+2026-03-09 22:05:55,031 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00076696 (confidence: 0.00%)
+2026-03-09 22:05:55,031 - __main__ - INFO -   No signal: Deviation 0.081% within thresholds
+2026-03-09 22:05:55,032 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00142135 (confidence: 0.00%)
+2026-03-09 22:05:55,032 - __main__ - INFO -   No signal: Deviation 0.137% within thresholds
+2026-03-09 22:05:55,032 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00185278 (confidence: 0.00%)
+2026-03-09 22:05:55,032 - __main__ - INFO -   No signal: Deviation 0.172% within thresholds
+2026-03-09 22:05:55,032 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:05:55,033 - __main__ - INFO -   No signal: Deviation 0.174% within thresholds
+2026-03-09 22:05:55,033 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00091327 (confidence: 0.00%)
+2026-03-09 22:05:55,033 - __main__ - INFO -   No signal: Deviation 0.057% within thresholds
+2026-03-09 22:05:55,033 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99918614 (confidence: 0.00%)
+2026-03-09 22:05:55,033 - __main__ - INFO -   No signal: Deviation -0.113% within thresholds
+2026-03-09 22:05:55,034 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99901596 (confidence: 0.00%)
+2026-03-09 22:05:55,034 - __main__ - INFO -   No signal: Deviation -0.129% within thresholds
+2026-03-09 22:05:55,034 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99946550 (confidence: 0.00%)
+2026-03-09 22:05:55,034 - __main__ - INFO -   No signal: Deviation -0.082% within thresholds
+2026-03-09 22:05:55,035 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99842813 (confidence: 0.00%)
+2026-03-09 22:05:55,035 - __main__ - INFO -   No signal: Deviation -0.179% within thresholds
+2026-03-09 22:05:55,035 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99821200 (confidence: 0.00%)
+2026-03-09 22:05:55,035 - __main__ - INFO -   No signal: Deviation -0.196% within thresholds
+2026-03-09 22:05:55,035 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99833982 (confidence: 0.00%)
+2026-03-09 22:05:55,035 - __main__ - INFO -   No signal: Deviation -0.175% within thresholds
+2026-03-09 22:05:55,036 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:05:55,036 - __main__ - INFO -   No signal: Deviation -0.191% within thresholds
+2026-03-09 22:05:55,036 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99888956 (confidence: 0.00%)
+2026-03-09 22:05:55,036 - __main__ - INFO -   No signal: Deviation -0.092% within thresholds
+2026-03-09 22:05:55,036 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:05:55,036 - __main__ - INFO -   No signal: Deviation -0.168% within thresholds
+2026-03-09 22:05:55,036 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:05:55,036 - __main__ - INFO -   No signal: Deviation -0.162% within thresholds
+2026-03-09 22:05:55,037 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99889643 (confidence: 0.00%)
+2026-03-09 22:05:55,037 - __main__ - INFO -   No signal: Deviation -0.071% within thresholds
+2026-03-09 22:05:55,037 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99869107 (confidence: 0.00%)
+2026-03-09 22:05:55,037 - __main__ - INFO -   No signal: Deviation -0.087% within thresholds
+2026-03-09 22:05:55,037 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99916416 (confidence: 0.00%)
+2026-03-09 22:05:55,037 - __main__ - INFO -   No signal: Deviation -0.036% within thresholds
+2026-03-09 22:05:55,037 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99844285 (confidence: 0.00%)
+2026-03-09 22:05:55,037 - __main__ - INFO -   No signal: Deviation -0.099% within thresholds
+2026-03-09 22:05:55,038 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99824257 (confidence: 0.00%)
+2026-03-09 22:05:55,038 - __main__ - INFO -   No signal: Deviation -0.105% within thresholds
+2026-03-09 22:05:55,038 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99887862 (confidence: 0.00%)
+2026-03-09 22:05:55,038 - __main__ - INFO -   No signal: Deviation -0.032% within thresholds
+2026-03-09 22:05:55,038 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99857361 (confidence: 0.00%)
+2026-03-09 22:05:55,038 - __main__ - INFO -   No signal: Deviation -0.049% within thresholds
+2026-03-09 22:05:55,038 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99882139 (confidence: 0.00%)
+2026-03-09 22:05:55,038 - __main__ - INFO -   No signal: Deviation -0.009% within thresholds
+2026-03-09 22:05:55,039 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99899779 (confidence: 0.00%)
+2026-03-09 22:05:55,039 - __main__ - INFO -   No signal: Deviation 0.024% within thresholds
+2026-03-09 22:05:55,039 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99982454 (confidence: 0.00%)
+2026-03-09 22:05:55,039 - __main__ - INFO -   No signal: Deviation 0.112% within thresholds
+2026-03-09 22:05:55,042 - __main__ - INFO - Initialized RiskManager
+2026-03-09 22:05:55,042 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 22:05:55,042 - __main__ - INFO -   Max risk per trade: 2.0%
+2026-03-09 22:05:55,042 - __main__ - INFO -   Max drawdown: 10.0%
+2026-03-09 22:05:55,042 - __main__ - INFO -   Max positions: 5
+2026-03-09 22:05:55,042 - __main__ - INFO -   Position sizing: fixed_percent
+2026-03-09 22:05:55,043 - __main__ - INFO - ✅ Trade APPROVED: USDTUSD - BUY @ 0.99850000
+2026-03-09 22:05:55,043 - __main__ - INFO -    Position: $500.00
+2026-03-09 22:05:55,043 - __main__ - INFO -    Risk: $2.50 | Reward: $1.50
+2026-03-09 22:05:55,043 - __main__ - INFO -    SL: 0.99350750 | TP: 1.00149550
+2026-03-09 22:05:55,043 - __main__ - WARNING -    ⚠️  Risk/Reward ratio 0.60 below minimum 1.00
+2026-03-09 22:05:55,043 - __main__ - INFO - ✅ Trade APPROVED: USDTUSD - BUY @ 0.99850000
+2026-03-09 22:05:55,043 - __main__ - INFO -    Position: $500.00
+2026-03-09 22:05:55,043 - __main__ - INFO -    Risk: $2.50 | Reward: $1.50
+2026-03-09 22:05:55,043 - __main__ - INFO -    SL: 0.99350750 | TP: 1.00149550
+2026-03-09 22:05:55,043 - __main__ - WARNING -    ⚠️  Risk/Reward ratio 0.60 below minimum 1.00
+2026-03-09 22:05:55,043 - __main__ - INFO - ✅ Trade APPROVED: USDCUSDT - BUY @ 1.00150000
+2026-03-09 22:05:55,043 - __main__ - INFO -    Position: $500.00
+2026-03-09 22:05:55,043 - __main__ - INFO -    Risk: $2.50 | Reward: $1.50
+2026-03-09 22:05:55,044 - __main__ - INFO -    SL: 0.99649250 | TP: 1.00450450
+2026-03-09 22:05:55,044 - __main__ - WARNING -    ⚠️  Risk/Reward ratio 0.60 below minimum 1.00
+2026-03-09 22:05:55,044 - __main__ - INFO - ✅ Trade APPROVED: DAIUSDT - BUY @ 0.99920000
+2026-03-09 22:05:55,044 - __main__ - INFO -    Position: $500.00
+2026-03-09 22:05:55,044 - __main__ - INFO -    Risk: $2.50 | Reward: $1.50
+2026-03-09 22:05:55,044 - __main__ - INFO -    SL: 0.99420400 | TP: 1.00219760
+2026-03-09 22:05:55,044 - __main__ - WARNING -    ⚠️  Risk/Reward ratio 0.60 below minimum 1.00
+2026-03-09 22:17:34,261 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:17:34,261 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:17:34,261 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:17:35,478 - websocket - INFO - Websocket connected
+2026-03-09 22:17:35,478 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:17:35,493 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:18:05,616 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:18:05,616 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:18:05,774 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:18:05,774 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:18:05,774 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:18:05,774 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:18:05,774 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:18:05,774 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:18:06,984 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:18:07,633 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:18:07,635 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:18:07,635 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:18:08,963 - websocket - INFO - Websocket connected
+2026-03-09 22:18:08,963 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:18:09,057 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:18:09,057 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:18:10,621 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:18:11,831 - websocket - INFO - Websocket connected
+2026-03-09 22:18:11,831 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:18:11,848 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:18:19,407 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:18:19,407 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:18:19,407 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:18:19,408 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:18:19,491 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:18:19,491 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:18:19,491 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:18:19,492 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:18:19,492 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00129169 (confidence: 0.00%)
+2026-03-09 22:18:19,492 - __main__ - INFO -   No signal: Deviation 0.174% within thresholds
+2026-03-09 22:18:19,492 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00156324 (confidence: 95.00%)
+2026-03-09 22:18:19,492 - __main__ - INFO -   Mean Reversion SELL: Price 0.203% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:18:19,493 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00034846 (confidence: 0.00%)
+2026-03-09 22:18:19,493 - __main__ - INFO -   No signal: Deviation 0.085% within thresholds
+2026-03-09 22:18:19,493 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00060133 (confidence: 0.00%)
+2026-03-09 22:18:19,493 - __main__ - INFO -   No signal: Deviation 0.103% within thresholds
+2026-03-09 22:18:19,493 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99932089 (confidence: 0.00%)
+2026-03-09 22:18:19,493 - __main__ - INFO -   No signal: Deviation -0.021% within thresholds
+2026-03-09 22:18:19,493 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99993773 (confidence: 0.00%)
+2026-03-09 22:18:19,494 - __main__ - INFO -   No signal: Deviation 0.041% within thresholds
+2026-03-09 22:18:19,494 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00064737 (confidence: 0.00%)
+2026-03-09 22:18:19,494 - __main__ - INFO -   No signal: Deviation 0.110% within thresholds
+2026-03-09 22:18:19,494 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00097646 (confidence: 0.00%)
+2026-03-09 22:18:19,494 - __main__ - INFO -   No signal: Deviation 0.136% within thresholds
+2026-03-09 22:18:19,494 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00125536 (confidence: 0.00%)
+2026-03-09 22:18:19,494 - __main__ - INFO -   No signal: Deviation 0.154% within thresholds
+2026-03-09 22:18:19,495 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00165056 (confidence: 0.00%)
+2026-03-09 22:18:19,495 - __main__ - INFO -   No signal: Deviation 0.180% within thresholds
+2026-03-09 22:18:19,495 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00139460 (confidence: 0.00%)
+2026-03-09 22:18:19,495 - __main__ - INFO -   No signal: Deviation 0.140% within thresholds
+2026-03-09 22:18:19,495 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00198406 (confidence: 0.00%)
+2026-03-09 22:18:19,495 - __main__ - INFO -   No signal: Deviation 0.181% within thresholds
+2026-03-09 22:18:19,495 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:18:19,495 - __main__ - INFO -   No signal: Deviation 0.169% within thresholds
+2026-03-09 22:18:19,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00172906 (confidence: 0.00%)
+2026-03-09 22:18:19,496 - __main__ - INFO -   No signal: Deviation 0.129% within thresholds
+2026-03-09 22:18:19,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:18:19,496 - __main__ - INFO -   No signal: Deviation 0.136% within thresholds
+2026-03-09 22:18:19,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:18:19,496 - __main__ - INFO -   No signal: Deviation 0.118% within thresholds
+2026-03-09 22:18:19,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00192078 (confidence: 0.00%)
+2026-03-09 22:18:19,497 - __main__ - INFO -   No signal: Deviation 0.098% within thresholds
+2026-03-09 22:18:19,497 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00162645 (confidence: 0.00%)
+2026-03-09 22:18:19,497 - __main__ - INFO -   No signal: Deviation 0.056% within thresholds
+2026-03-09 22:18:19,497 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00170424 (confidence: 0.00%)
+2026-03-09 22:18:19,497 - __main__ - INFO -   No signal: Deviation 0.050% within thresholds
+2026-03-09 22:18:19,497 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00154079 (confidence: 0.00%)
+2026-03-09 22:18:19,498 - __main__ - INFO -   No signal: Deviation 0.027% within thresholds
+2026-03-09 22:18:19,498 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:18:19,498 - __main__ - INFO -   No signal: Deviation 0.069% within thresholds
+2026-03-09 22:18:19,498 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00076737 (confidence: 0.00%)
+2026-03-09 22:18:19,498 - __main__ - INFO -   No signal: Deviation -0.050% within thresholds
+2026-03-09 22:18:19,499 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00019823 (confidence: 0.00%)
+2026-03-09 22:18:19,499 - __main__ - INFO -   No signal: Deviation -0.106% within thresholds
+2026-03-09 22:18:19,500 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00103939 (confidence: 0.00%)
+2026-03-09 22:18:19,500 - __main__ - INFO -   No signal: Deviation -0.024% within thresholds
+2026-03-09 22:18:19,500 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00096476 (confidence: 0.00%)
+2026-03-09 22:18:19,500 - __main__ - INFO -   No signal: Deviation -0.040% within thresholds
+2026-03-09 22:18:19,500 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99950432 (confidence: 0.00%)
+2026-03-09 22:18:19,500 - __main__ - INFO -   No signal: Deviation -0.184% within thresholds
+2026-03-09 22:18:19,500 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99953741 (confidence: 0.00%)
+2026-03-09 22:18:19,501 - __main__ - INFO -   No signal: Deviation -0.175% within thresholds
+2026-03-09 22:18:19,501 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00017750 (confidence: 0.00%)
+2026-03-09 22:18:19,501 - __main__ - INFO -   No signal: Deviation -0.107% within thresholds
+2026-03-09 22:18:19,501 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00152799 (confidence: 0.00%)
+2026-03-09 22:18:19,501 - __main__ - INFO -   No signal: Deviation 0.026% within thresholds
+2026-03-09 22:18:19,502 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00138998 (confidence: 0.00%)
+2026-03-09 22:18:19,502 - __main__ - INFO -   No signal: Deviation 0.014% within thresholds
+2026-03-09 22:18:19,502 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00082176 (confidence: 0.00%)
+2026-03-09 22:18:19,502 - __main__ - INFO -   No signal: Deviation -0.040% within thresholds
+2026-03-09 22:18:19,502 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00034532 (confidence: 0.00%)
+2026-03-09 22:18:19,502 - __main__ - INFO -   No signal: Deviation -0.079% within thresholds
+2026-03-09 22:18:19,502 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00094075 (confidence: 0.00%)
+2026-03-09 22:18:19,502 - __main__ - INFO -   No signal: Deviation -0.015% within thresholds
+2026-03-09 22:18:19,503 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99961948 (confidence: 0.00%)
+2026-03-09 22:18:19,503 - __main__ - INFO -   No signal: Deviation -0.136% within thresholds
+2026-03-09 22:18:19,504 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99842210 (confidence: 95.00%)
+2026-03-09 22:18:19,504 - __main__ - INFO -   Mean Reversion BUY: Price -0.238% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:18:19,504 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99813359 (confidence: 95.00%)
+2026-03-09 22:18:19,504 - __main__ - INFO -   Mean Reversion BUY: Price -0.247% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:18:19,504 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99816432 (confidence: 95.00%)
+2026-03-09 22:18:19,504 - __main__ - INFO -   Mean Reversion BUY: Price -0.226% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:18:19,505 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:18:19,505 - __main__ - INFO -   Mean Reversion BUY: Price -0.224% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:18:19,505 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:18:19,505 - __main__ - INFO -   Mean Reversion BUY: Price -0.205% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:18:19,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99829522 (confidence: 0.00%)
+2026-03-09 22:18:19,506 - __main__ - INFO -   No signal: Deviation -0.160% within thresholds
+2026-03-09 22:18:19,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99883266 (confidence: 0.00%)
+2026-03-09 22:18:19,506 - __main__ - INFO -   No signal: Deviation -0.090% within thresholds
+2026-03-09 22:18:19,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99953712 (confidence: 0.00%)
+2026-03-09 22:18:19,507 - __main__ - INFO -   No signal: Deviation -0.014% within thresholds
+2026-03-09 22:18:19,508 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99924393 (confidence: 0.00%)
+2026-03-09 22:18:19,508 - __main__ - INFO -   No signal: Deviation -0.038% within thresholds
+2026-03-09 22:18:19,508 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99882442 (confidence: 0.00%)
+2026-03-09 22:18:19,508 - __main__ - INFO -   No signal: Deviation -0.069% within thresholds
+2026-03-09 22:18:19,509 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99820032 (confidence: 0.00%)
+2026-03-09 22:18:19,509 - __main__ - INFO -   No signal: Deviation -0.118% within thresholds
+2026-03-09 22:18:19,509 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:18:19,509 - __main__ - INFO -   No signal: Deviation -0.130% within thresholds
+2026-03-09 22:18:19,509 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99829360 (confidence: 0.00%)
+2026-03-09 22:18:19,509 - __main__ - INFO -   No signal: Deviation -0.095% within thresholds
+2026-03-09 22:18:19,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99886136 (confidence: 0.00%)
+2026-03-09 22:18:19,510 - __main__ - INFO -   No signal: Deviation -0.031% within thresholds
+2026-03-09 22:18:19,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:18:19,510 - __main__ - INFO -   No signal: Deviation -0.100% within thresholds
+2026-03-09 22:18:19,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:18:19,510 - __main__ - INFO -   No signal: Deviation -0.083% within thresholds
+2026-03-09 22:18:19,511 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:18:19,511 - __main__ - INFO -   No signal: Deviation -0.069% within thresholds
+2026-03-09 22:18:19,511 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99806544 (confidence: 0.00%)
+2026-03-09 22:18:19,511 - __main__ - INFO -   No signal: Deviation -0.051% within thresholds
+2026-03-09 22:18:19,512 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 22:18:19,512 - __main__ - INFO -   Max position add: 50%
+2026-03-09 22:18:19,513 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 22:18:19,513 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:18:19,513 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:18:19,513 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:18:19,514 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 22:18:19,514 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 22:18:19,514 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 22:18:19,515 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 22:18:19,515 - __main__ - WARNING -    Size: $250.00
+2026-03-09 22:18:19,515 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 22:18:19,515 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 22:18:19,515 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 22:18:19,515 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 22:18:19,515 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 22:18:19,515 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 22:23:35,683 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:23:35,683 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:23:35,683 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:23:36,954 - websocket - INFO - Websocket connected
+2026-03-09 22:23:36,954 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:23:37,014 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:24:07,386 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:24:07,386 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:24:07,386 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:24:07,386 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:24:07,386 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:24:07,386 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:24:07,386 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:24:07,387 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:24:08,340 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:24:08,866 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:24:08,869 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:24:08,869 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:24:10,146 - websocket - INFO - Websocket connected
+2026-03-09 22:24:10,146 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:24:10,188 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:24:10,189 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:24:12,387 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:24:13,596 - websocket - INFO - Websocket connected
+2026-03-09 22:24:13,596 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:24:13,609 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:24:20,549 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:24:20,549 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:24:20,549 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:24:20,549 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:24:20,618 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:24:20,618 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:24:20,619 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:24:20,619 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:24:20,619 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00092882 (confidence: 0.00%)
+2026-03-09 22:24:20,619 - __main__ - INFO -   No signal: Deviation -0.031% within thresholds
+2026-03-09 22:24:20,619 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00123411 (confidence: 0.00%)
+2026-03-09 22:24:20,619 - __main__ - INFO -   No signal: Deviation -0.004% within thresholds
+2026-03-09 22:24:20,620 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00168385 (confidence: 0.00%)
+2026-03-09 22:24:20,620 - __main__ - INFO -   No signal: Deviation 0.037% within thresholds
+2026-03-09 22:24:20,620 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:24:20,620 - __main__ - INFO -   No signal: Deviation 0.066% within thresholds
+2026-03-09 22:24:20,620 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00198655 (confidence: 0.00%)
+2026-03-09 22:24:20,620 - __main__ - INFO -   No signal: Deviation 0.058% within thresholds
+2026-03-09 22:24:20,620 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:24:20,620 - __main__ - INFO -   No signal: Deviation 0.056% within thresholds
+2026-03-09 22:24:20,621 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:24:20,621 - __main__ - INFO -   No signal: Deviation 0.053% within thresholds
+2026-03-09 22:24:20,621 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00105759 (confidence: 0.00%)
+2026-03-09 22:24:20,621 - __main__ - INFO -   No signal: Deviation -0.039% within thresholds
+2026-03-09 22:24:20,621 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00066482 (confidence: 0.00%)
+2026-03-09 22:24:20,621 - __main__ - INFO -   No signal: Deviation -0.078% within thresholds
+2026-03-09 22:24:20,622 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00160090 (confidence: 0.00%)
+2026-03-09 22:24:20,622 - __main__ - INFO -   No signal: Deviation 0.008% within thresholds
+2026-03-09 22:24:20,622 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00085259 (confidence: 0.00%)
+2026-03-09 22:24:20,622 - __main__ - INFO -   No signal: Deviation -0.066% within thresholds
+2026-03-09 22:24:20,623 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00056930 (confidence: 0.00%)
+2026-03-09 22:24:20,623 - __main__ - INFO -   No signal: Deviation -0.088% within thresholds
+2026-03-09 22:24:20,623 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00029697 (confidence: 0.00%)
+2026-03-09 22:24:20,623 - __main__ - INFO -   No signal: Deviation -0.106% within thresholds
+2026-03-09 22:24:20,623 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00080925 (confidence: 0.00%)
+2026-03-09 22:24:20,623 - __main__ - INFO -   No signal: Deviation -0.051% within thresholds
+2026-03-09 22:24:20,623 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00090840 (confidence: 0.00%)
+2026-03-09 22:24:20,624 - __main__ - INFO -   No signal: Deviation -0.043% within thresholds
+2026-03-09 22:24:20,624 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00140656 (confidence: 0.00%)
+2026-03-09 22:24:20,624 - __main__ - INFO -   No signal: Deviation 0.004% within thresholds
+2026-03-09 22:24:20,624 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99985749 (confidence: 0.00%)
+2026-03-09 22:24:20,624 - __main__ - INFO -   No signal: Deviation -0.140% within thresholds
+2026-03-09 22:24:20,625 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99953901 (confidence: 0.00%)
+2026-03-09 22:24:20,625 - __main__ - INFO -   No signal: Deviation -0.160% within thresholds
+2026-03-09 22:24:20,625 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99927084 (confidence: 0.00%)
+2026-03-09 22:24:20,625 - __main__ - INFO -   No signal: Deviation -0.175% within thresholds
+2026-03-09 22:24:20,625 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99906950 (confidence: 0.00%)
+2026-03-09 22:24:20,625 - __main__ - INFO -   No signal: Deviation -0.182% within thresholds
+2026-03-09 22:24:20,625 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00010957 (confidence: 0.00%)
+2026-03-09 22:24:20,625 - __main__ - INFO -   No signal: Deviation -0.074% within thresholds
+2026-03-09 22:24:20,626 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99859497 (confidence: 95.00%)
+2026-03-09 22:24:20,626 - __main__ - INFO -   Mean Reversion BUY: Price -0.212% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:24:20,626 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,626 - __main__ - INFO -   Mean Reversion BUY: Price -0.253% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:24:20,626 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,626 - __main__ - INFO -   Mean Reversion BUY: Price -0.233% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,626 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99890450 (confidence: 0.00%)
+2026-03-09 22:24:20,627 - __main__ - INFO -   No signal: Deviation -0.127% within thresholds
+2026-03-09 22:24:20,627 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99830375 (confidence: 0.00%)
+2026-03-09 22:24:20,627 - __main__ - INFO -   No signal: Deviation -0.169% within thresholds
+2026-03-09 22:24:20,627 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:24:20,627 - __main__ - INFO -   No signal: Deviation -0.179% within thresholds
+2026-03-09 22:24:20,627 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99881635 (confidence: 0.00%)
+2026-03-09 22:24:20,627 - __main__ - INFO -   No signal: Deviation -0.086% within thresholds
+2026-03-09 22:24:20,627 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99960825 (confidence: 0.00%)
+2026-03-09 22:24:20,628 - __main__ - INFO -   No signal: Deviation -0.002% within thresholds
+2026-03-09 22:24:20,628 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00012168 (confidence: 0.00%)
+2026-03-09 22:24:20,628 - __main__ - INFO -   No signal: Deviation 0.057% within thresholds
+2026-03-09 22:24:20,628 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00011318 (confidence: 0.00%)
+2026-03-09 22:24:20,628 - __main__ - INFO -   No signal: Deviation 0.060% within thresholds
+2026-03-09 22:24:20,629 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00084480 (confidence: 0.00%)
+2026-03-09 22:24:20,629 - __main__ - INFO -   No signal: Deviation 0.132% within thresholds
+2026-03-09 22:24:20,629 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00197004 (confidence: 95.00%)
+2026-03-09 22:24:20,631 - __main__ - INFO -   Mean Reversion SELL: Price 0.236% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:24:20,631 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 22:24:20,631 - __main__ - INFO -   Mean Reversion SELL: Price 0.233% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,631 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00185765 (confidence: 95.00%)
+2026-03-09 22:24:20,632 - __main__ - INFO -   Mean Reversion SELL: Price 0.214% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,632 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 22:24:20,632 - __main__ - INFO -   Mean Reversion SELL: Price 0.225% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,632 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 22:24:20,632 - __main__ - INFO -   Mean Reversion SELL: Price 0.214% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,632 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00102690 (confidence: 0.00%)
+2026-03-09 22:24:20,633 - __main__ - INFO -   No signal: Deviation 0.110% within thresholds
+2026-03-09 22:24:20,633 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00175848 (confidence: 0.00%)
+2026-03-09 22:24:20,633 - __main__ - INFO -   No signal: Deviation 0.170% within thresholds
+2026-03-09 22:24:20,633 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00140243 (confidence: 0.00%)
+2026-03-09 22:24:20,633 - __main__ - INFO -   No signal: Deviation 0.123% within thresholds
+2026-03-09 22:24:20,633 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99987700 (confidence: 0.00%)
+2026-03-09 22:24:20,633 - __main__ - INFO -   No signal: Deviation -0.028% within thresholds
+2026-03-09 22:24:20,633 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99892124 (confidence: 0.00%)
+2026-03-09 22:24:20,634 - __main__ - INFO -   No signal: Deviation -0.125% within thresholds
+2026-03-09 22:24:20,634 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99865323 (confidence: 0.00%)
+2026-03-09 22:24:20,634 - __main__ - INFO -   No signal: Deviation -0.156% within thresholds
+2026-03-09 22:24:20,634 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,635 - __main__ - INFO -   Mean Reversion BUY: Price -0.221% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,635 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,635 - __main__ - INFO -   Mean Reversion BUY: Price -0.216% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,635 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,635 - __main__ - INFO -   Mean Reversion BUY: Price -0.215% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,635 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,635 - __main__ - INFO -   Mean Reversion BUY: Price -0.215% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,636 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:24:20,636 - __main__ - INFO -   Mean Reversion BUY: Price -0.211% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:24:20,636 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99908337 (confidence: 0.00%)
+2026-03-09 22:24:20,636 - __main__ - INFO -   No signal: Deviation -0.100% within thresholds
+2026-03-09 22:24:20,636 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99914793 (confidence: 0.00%)
+2026-03-09 22:24:20,636 - __main__ - INFO -   No signal: Deviation -0.088% within thresholds
+2026-03-09 22:24:20,636 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99943265 (confidence: 0.00%)
+2026-03-09 22:24:20,636 - __main__ - INFO -   No signal: Deviation -0.057% within thresholds
+2026-03-09 22:24:20,637 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00041837 (confidence: 0.00%)
+2026-03-09 22:24:20,637 - __main__ - INFO -   No signal: Deviation 0.044% within thresholds
+2026-03-09 22:24:20,638 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 22:24:20,638 - __main__ - INFO -   Max position add: 50%
+2026-03-09 22:24:20,638 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 22:24:20,638 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:24:20,638 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:24:20,639 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:24:20,639 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 22:24:20,639 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 22:24:20,639 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 22:24:20,639 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 22:24:20,640 - __main__ - WARNING -    Size: $250.00
+2026-03-09 22:24:20,640 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 22:24:20,640 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 22:24:20,640 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 22:24:20,640 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 22:24:20,640 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 22:24:20,640 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 22:24:20,642 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 22:24:20,642 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 22:24:20,642 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 22:24:20,643 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 22:24:20,643 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 22:24:20,643 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 22:24:20,643 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 22:24:20,643 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 22:24:20,643 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 22:24:20,643 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-09 22:24:20,643 - __main__ - INFO -    Fees: $0.2502
+2026-03-09 22:24:20,643 - __main__ - INFO -    Balance: $9749.90
+2026-03-09 22:24:20,643 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 22:24:20,643 - __main__ - INFO -    Order ID: binance_3
+2026-03-09 22:26:21,515 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:26:21,515 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:26:21,515 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:26:22,722 - websocket - INFO - Websocket connected
+2026-03-09 22:26:22,723 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:26:22,744 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:26:53,069 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:26:53,069 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:26:53,070 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:26:53,070 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:26:53,070 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:26:53,070 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:26:53,070 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:26:53,070 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:26:54,102 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:26:54,745 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:26:54,747 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:26:54,747 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:26:56,039 - websocket - INFO - Websocket connected
+2026-03-09 22:26:56,039 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:26:56,081 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:26:56,081 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:26:58,070 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:26:59,315 - websocket - INFO - Websocket connected
+2026-03-09 22:26:59,316 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:26:59,410 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:27:06,434 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:27:06,434 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:27:06,435 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:27:06,435 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:27:06,503 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:27:06,503 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:27:06,503 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:27:06,503 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:27:06,503 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99809386 (confidence: 0.00%)
+2026-03-09 22:27:06,503 - __main__ - INFO -   No signal: Deviation -0.078% within thresholds
+2026-03-09 22:27:06,504 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922586 (confidence: 0.00%)
+2026-03-09 22:27:06,504 - __main__ - INFO -   No signal: Deviation 0.032% within thresholds
+2026-03-09 22:27:06,504 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99891367 (confidence: 0.00%)
+2026-03-09 22:27:06,504 - __main__ - INFO -   No signal: Deviation 0.007% within thresholds
+2026-03-09 22:27:06,504 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:27:06,504 - __main__ - INFO -   No signal: Deviation -0.070% within thresholds
+2026-03-09 22:27:06,504 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99865533 (confidence: 0.00%)
+2026-03-09 22:27:06,504 - __main__ - INFO -   No signal: Deviation 0.009% within thresholds
+2026-03-09 22:27:06,505 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00044297 (confidence: 0.00%)
+2026-03-09 22:27:06,505 - __main__ - INFO -   No signal: Deviation 0.191% within thresholds
+2026-03-09 22:27:06,505 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00010457 (confidence: 0.00%)
+2026-03-09 22:27:06,505 - __main__ - INFO -   No signal: Deviation 0.157% within thresholds
+2026-03-09 22:27:06,505 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99945647 (confidence: 0.00%)
+2026-03-09 22:27:06,505 - __main__ - INFO -   No signal: Deviation 0.086% within thresholds
+2026-03-09 22:27:06,505 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99958481 (confidence: 0.00%)
+2026-03-09 22:27:06,505 - __main__ - INFO -   No signal: Deviation 0.095% within thresholds
+2026-03-09 22:27:06,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99855889 (confidence: 0.00%)
+2026-03-09 22:27:06,506 - __main__ - INFO -   No signal: Deviation -0.008% within thresholds
+2026-03-09 22:27:06,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:27:06,506 - __main__ - INFO -   No signal: Deviation -0.059% within thresholds
+2026-03-09 22:27:06,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99865288 (confidence: 0.00%)
+2026-03-09 22:27:06,506 - __main__ - INFO -   No signal: Deviation 0.003% within thresholds
+2026-03-09 22:27:06,506 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99810191 (confidence: 0.00%)
+2026-03-09 22:27:06,506 - __main__ - INFO -   No signal: Deviation -0.053% within thresholds
+2026-03-09 22:27:06,507 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:27:06,507 - __main__ - INFO -   No signal: Deviation -0.062% within thresholds
+2026-03-09 22:27:06,507 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99981564 (confidence: 0.00%)
+2026-03-09 22:27:06,507 - __main__ - INFO -   No signal: Deviation 0.111% within thresholds
+2026-03-09 22:27:06,507 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99884292 (confidence: 0.00%)
+2026-03-09 22:27:06,507 - __main__ - INFO -   No signal: Deviation 0.011% within thresholds
+2026-03-09 22:27:06,507 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00095944 (confidence: 95.00%)
+2026-03-09 22:27:06,507 - __main__ - INFO -   Mean Reversion SELL: Price 0.209% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:27:06,508 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00108667 (confidence: 95.00%)
+2026-03-09 22:27:06,508 - __main__ - INFO -   Mean Reversion SELL: Price 0.206% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:27:06,508 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00163594 (confidence: 95.00%)
+2026-03-09 22:27:06,508 - __main__ - INFO -   Mean Reversion SELL: Price 0.243% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:27:06,508 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00127978 (confidence: 0.00%)
+2026-03-09 22:27:06,508 - __main__ - INFO -   No signal: Deviation 0.191% within thresholds
+2026-03-09 22:27:06,509 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00102415 (confidence: 0.00%)
+2026-03-09 22:27:06,509 - __main__ - INFO -   No signal: Deviation 0.151% within thresholds
+2026-03-09 22:27:06,509 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00103346 (confidence: 0.00%)
+2026-03-09 22:27:06,509 - __main__ - INFO -   No signal: Deviation 0.143% within thresholds
+2026-03-09 22:27:06,509 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00058597 (confidence: 0.00%)
+2026-03-09 22:27:06,509 - __main__ - INFO -   No signal: Deviation 0.090% within thresholds
+2026-03-09 22:27:06,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00109699 (confidence: 0.00%)
+2026-03-09 22:27:06,510 - __main__ - INFO -   No signal: Deviation 0.125% within thresholds
+2026-03-09 22:27:06,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99984091 (confidence: 0.00%)
+2026-03-09 22:27:06,510 - __main__ - INFO -   No signal: Deviation -0.006% within thresholds
+2026-03-09 22:27:06,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99973049 (confidence: 0.00%)
+2026-03-09 22:27:06,510 - __main__ - INFO -   No signal: Deviation -0.014% within thresholds
+2026-03-09 22:27:06,510 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:27:06,510 - __main__ - INFO -   No signal: Deviation -0.176% within thresholds
+2026-03-09 22:27:06,511 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99860272 (confidence: 0.00%)
+2026-03-09 22:27:06,511 - __main__ - INFO -   No signal: Deviation -0.112% within thresholds
+2026-03-09 22:27:06,511 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:27:06,511 - __main__ - INFO -   No signal: Deviation -0.164% within thresholds
+2026-03-09 22:27:06,511 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99837085 (confidence: 0.00%)
+2026-03-09 22:27:06,511 - __main__ - INFO -   No signal: Deviation -0.126% within thresholds
+2026-03-09 22:27:06,511 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99806720 (confidence: 0.00%)
+2026-03-09 22:27:06,512 - __main__ - INFO -   No signal: Deviation -0.157% within thresholds
+2026-03-09 22:27:06,512 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99854958 (confidence: 0.00%)
+2026-03-09 22:27:06,512 - __main__ - INFO -   No signal: Deviation -0.108% within thresholds
+2026-03-09 22:27:06,512 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99859454 (confidence: 0.00%)
+2026-03-09 22:27:06,512 - __main__ - INFO -   No signal: Deviation -0.106% within thresholds
+2026-03-09 22:27:06,512 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00002537 (confidence: 0.00%)
+2026-03-09 22:27:06,512 - __main__ - INFO -   No signal: Deviation 0.027% within thresholds
+2026-03-09 22:27:06,512 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00051291 (confidence: 0.00%)
+2026-03-09 22:27:06,513 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-09 22:27:06,513 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99982781 (confidence: 0.00%)
+2026-03-09 22:27:06,513 - __main__ - INFO -   No signal: Deviation -0.001% within thresholds
+2026-03-09 22:27:06,513 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99946051 (confidence: 0.00%)
+2026-03-09 22:27:06,513 - __main__ - INFO -   No signal: Deviation -0.031% within thresholds
+2026-03-09 22:27:06,513 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00000680 (confidence: 0.00%)
+2026-03-09 22:27:06,513 - __main__ - INFO -   No signal: Deviation 0.029% within thresholds
+2026-03-09 22:27:06,513 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00052999 (confidence: 0.00%)
+2026-03-09 22:27:06,514 - __main__ - INFO -   No signal: Deviation 0.087% within thresholds
+2026-03-09 22:27:06,514 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99976176 (confidence: 0.00%)
+2026-03-09 22:27:06,514 - __main__ - INFO -   No signal: Deviation 0.018% within thresholds
+2026-03-09 22:27:06,514 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00108955 (confidence: 0.00%)
+2026-03-09 22:27:06,514 - __main__ - INFO -   No signal: Deviation 0.151% within thresholds
+2026-03-09 22:27:06,514 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00090239 (confidence: 0.00%)
+2026-03-09 22:27:06,514 - __main__ - INFO -   No signal: Deviation 0.133% within thresholds
+2026-03-09 22:27:06,514 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00082866 (confidence: 0.00%)
+2026-03-09 22:27:06,515 - __main__ - INFO -   No signal: Deviation 0.124% within thresholds
+2026-03-09 22:27:06,515 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00048632 (confidence: 0.00%)
+2026-03-09 22:27:06,515 - __main__ - INFO -   No signal: Deviation 0.093% within thresholds
+2026-03-09 22:27:06,515 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00096056 (confidence: 0.00%)
+2026-03-09 22:27:06,515 - __main__ - INFO -   No signal: Deviation 0.135% within thresholds
+2026-03-09 22:27:06,515 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00000691 (confidence: 0.00%)
+2026-03-09 22:27:06,515 - __main__ - INFO -   No signal: Deviation 0.038% within thresholds
+2026-03-09 22:27:06,515 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922942 (confidence: 0.00%)
+2026-03-09 22:27:06,516 - __main__ - INFO -   No signal: Deviation -0.046% within thresholds
+2026-03-09 22:27:06,516 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99992626 (confidence: 0.00%)
+2026-03-09 22:27:06,516 - __main__ - INFO -   No signal: Deviation 0.017% within thresholds
+2026-03-09 22:27:06,516 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00115260 (confidence: 0.00%)
+2026-03-09 22:27:06,516 - __main__ - INFO -   No signal: Deviation 0.124% within thresholds
+2026-03-09 22:27:06,516 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00190724 (confidence: 0.00%)
+2026-03-09 22:27:06,516 - __main__ - INFO -   No signal: Deviation 0.182% within thresholds
+2026-03-09 22:27:06,516 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:27:06,516 - __main__ - INFO -   No signal: Deviation 0.171% within thresholds
+2026-03-09 22:27:06,517 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:27:06,517 - __main__ - INFO -   No signal: Deviation 0.154% within thresholds
+2026-03-09 22:27:06,518 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 22:27:06,518 - __main__ - INFO -   Max position add: 50%
+2026-03-09 22:27:06,518 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 22:27:06,518 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:27:06,518 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:27:06,519 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:27:06,519 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 22:27:06,519 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 22:27:06,519 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 22:27:06,519 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 22:27:06,519 - __main__ - WARNING -    Size: $250.00
+2026-03-09 22:27:06,519 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 22:27:06,519 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 22:27:06,519 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 22:27:06,519 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 22:27:06,519 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 22:27:06,520 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 22:27:06,522 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 22:27:06,522 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 22:27:06,522 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 22:27:06,522 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 22:27:06,522 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 22:27:06,522 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 22:27:06,522 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 22:27:06,522 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 22:27:06,522 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 22:27:06,522 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-09 22:27:06,522 - __main__ - INFO -    Fees: $0.2502
+2026-03-09 22:27:06,523 - __main__ - INFO -    Balance: $9749.90
+2026-03-09 22:27:06,523 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 22:27:06,523 - __main__ - INFO -    Order ID: binance_3
+2026-03-09 22:45:11,573 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:45:11,573 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:45:11,573 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:45:12,863 - websocket - INFO - Websocket connected
+2026-03-09 22:45:12,863 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:45:12,908 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:45:43,276 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:45:43,276 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:45:43,277 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:45:43,277 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:45:43,277 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:45:43,277 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:45:43,277 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:45:43,278 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:45:44,215 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:45:44,846 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:45:44,848 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:45:44,848 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:45:45,982 - websocket - INFO - Websocket connected
+2026-03-09 22:45:45,982 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:45:45,984 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:45:45,984 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:45:48,281 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:45:49,523 - websocket - INFO - Websocket connected
+2026-03-09 22:45:49,523 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:45:49,609 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:45:56,383 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:45:56,384 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:45:56,384 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:45:56,384 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:45:56,469 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:45:56,469 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:45:56,469 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:45:56,469 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:45:56,470 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99959689 (confidence: 0.00%)
+2026-03-09 22:45:56,470 - __main__ - INFO -   No signal: Deviation 0.108% within thresholds
+2026-03-09 22:45:56,470 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00027310 (confidence: 0.00%)
+2026-03-09 22:45:56,470 - __main__ - INFO -   No signal: Deviation 0.166% within thresholds
+2026-03-09 22:45:56,470 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00102469 (confidence: 95.00%)
+2026-03-09 22:45:56,470 - __main__ - INFO -   Mean Reversion SELL: Price 0.226% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:45:56,470 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00139477 (confidence: 95.00%)
+2026-03-09 22:45:56,471 - __main__ - INFO -   Mean Reversion SELL: Price 0.246% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:45:56,471 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00059286 (confidence: 0.00%)
+2026-03-09 22:45:56,471 - __main__ - INFO -   No signal: Deviation 0.153% within thresholds
+2026-03-09 22:45:56,471 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00186333 (confidence: 95.00%)
+2026-03-09 22:45:56,471 - __main__ - INFO -   Mean Reversion SELL: Price 0.262% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 22:45:56,472 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 22:45:56,472 - __main__ - INFO -   Mean Reversion SELL: Price 0.256% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,472 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 22:45:56,472 - __main__ - INFO -   Mean Reversion SELL: Price 0.235% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,473 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00113376 (confidence: 0.00%)
+2026-03-09 22:45:56,473 - __main__ - INFO -   No signal: Deviation 0.137% within thresholds
+2026-03-09 22:45:56,473 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 22:45:56,473 - __main__ - INFO -   Mean Reversion SELL: Price 0.207% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,473 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00127843 (confidence: 0.00%)
+2026-03-09 22:45:56,473 - __main__ - INFO -   No signal: Deviation 0.118% within thresholds
+2026-03-09 22:45:56,473 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:45:56,474 - __main__ - INFO -   No signal: Deviation 0.170% within thresholds
+2026-03-09 22:45:56,474 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00039961 (confidence: 0.00%)
+2026-03-09 22:45:56,475 - __main__ - INFO -   No signal: Deviation 0.001% within thresholds
+2026-03-09 22:45:56,475 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99914964 (confidence: 0.00%)
+2026-03-09 22:45:56,476 - __main__ - INFO -   No signal: Deviation -0.130% within thresholds
+2026-03-09 22:45:56,476 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922160 (confidence: 0.00%)
+2026-03-09 22:45:56,477 - __main__ - INFO -   No signal: Deviation -0.124% within thresholds
+2026-03-09 22:45:56,477 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99827353 (confidence: 95.00%)
+2026-03-09 22:45:56,477 - __main__ - INFO -   Mean Reversion BUY: Price -0.218% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,478 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:45:56,478 - __main__ - INFO -   Mean Reversion BUY: Price -0.241% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,478 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:45:56,478 - __main__ - INFO -   Mean Reversion BUY: Price -0.238% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,479 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99814314 (confidence: 95.00%)
+2026-03-09 22:45:56,479 - __main__ - INFO -   Mean Reversion BUY: Price -0.216% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,479 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99960191 (confidence: 0.00%)
+2026-03-09 22:45:56,479 - __main__ - INFO -   No signal: Deviation -0.070% within thresholds
+2026-03-09 22:45:56,479 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99833264 (confidence: 0.00%)
+2026-03-09 22:45:56,479 - __main__ - INFO -   No signal: Deviation -0.190% within thresholds
+2026-03-09 22:45:56,480 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:45:56,480 - __main__ - INFO -   Mean Reversion BUY: Price -0.212% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:45:56,480 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99807166 (confidence: 0.00%)
+2026-03-09 22:45:56,480 - __main__ - INFO -   No signal: Deviation -0.190% within thresholds
+2026-03-09 22:45:56,481 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:45:56,481 - __main__ - INFO -   No signal: Deviation -0.180% within thresholds
+2026-03-09 22:45:56,481 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:45:56,481 - __main__ - INFO -   No signal: Deviation -0.167% within thresholds
+2026-03-09 22:45:56,481 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99842716 (confidence: 0.00%)
+2026-03-09 22:45:56,482 - __main__ - INFO -   No signal: Deviation -0.108% within thresholds
+2026-03-09 22:45:56,482 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:45:56,482 - __main__ - INFO -   No signal: Deviation -0.130% within thresholds
+2026-03-09 22:45:56,482 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99962744 (confidence: 0.00%)
+2026-03-09 22:45:56,482 - __main__ - INFO -   No signal: Deviation 0.044% within thresholds
+2026-03-09 22:45:56,483 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99898780 (confidence: 0.00%)
+2026-03-09 22:45:56,483 - __main__ - INFO -   No signal: Deviation -0.009% within thresholds
+2026-03-09 22:45:56,483 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99901420 (confidence: 0.00%)
+2026-03-09 22:45:56,483 - __main__ - INFO -   No signal: Deviation 0.009% within thresholds
+2026-03-09 22:45:56,484 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99839697 (confidence: 0.00%)
+2026-03-09 22:45:56,484 - __main__ - INFO -   No signal: Deviation -0.039% within thresholds
+2026-03-09 22:45:56,484 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99892118 (confidence: 0.00%)
+2026-03-09 22:45:56,485 - __main__ - INFO -   No signal: Deviation 0.029% within thresholds
+2026-03-09 22:45:56,485 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00036789 (confidence: 0.00%)
+2026-03-09 22:45:56,485 - __main__ - INFO -   No signal: Deviation 0.174% within thresholds
+2026-03-09 22:45:56,486 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00062555 (confidence: 0.00%)
+2026-03-09 22:45:56,486 - __main__ - INFO -   No signal: Deviation 0.193% within thresholds
+2026-03-09 22:45:56,487 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00004527 (confidence: 0.00%)
+2026-03-09 22:45:56,487 - __main__ - INFO -   No signal: Deviation 0.131% within thresholds
+2026-03-09 22:45:56,487 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00023177 (confidence: 0.00%)
+2026-03-09 22:45:56,487 - __main__ - INFO -   No signal: Deviation 0.139% within thresholds
+2026-03-09 22:45:56,487 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00017057 (confidence: 0.00%)
+2026-03-09 22:45:56,487 - __main__ - INFO -   No signal: Deviation 0.122% within thresholds
+2026-03-09 22:45:56,487 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00013716 (confidence: 0.00%)
+2026-03-09 22:45:56,488 - __main__ - INFO -   No signal: Deviation 0.108% within thresholds
+2026-03-09 22:45:56,488 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99986207 (confidence: 0.00%)
+2026-03-09 22:45:56,488 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-09 22:45:56,489 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00068990 (confidence: 0.00%)
+2026-03-09 22:45:56,490 - __main__ - INFO -   No signal: Deviation 0.150% within thresholds
+2026-03-09 22:45:56,491 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99980492 (confidence: 0.00%)
+2026-03-09 22:45:56,491 - __main__ - INFO -   No signal: Deviation 0.054% within thresholds
+2026-03-09 22:45:56,492 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99978801 (confidence: 0.00%)
+2026-03-09 22:45:56,492 - __main__ - INFO -   No signal: Deviation 0.043% within thresholds
+2026-03-09 22:45:56,492 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00027981 (confidence: 0.00%)
+2026-03-09 22:45:56,493 - __main__ - INFO -   No signal: Deviation 0.081% within thresholds
+2026-03-09 22:45:56,493 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00030036 (confidence: 0.00%)
+2026-03-09 22:45:56,493 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-09 22:45:56,493 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00072094 (confidence: 0.00%)
+2026-03-09 22:45:56,494 - __main__ - INFO -   No signal: Deviation 0.100% within thresholds
+2026-03-09 22:45:56,494 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99926659 (confidence: 0.00%)
+2026-03-09 22:45:56,494 - __main__ - INFO -   No signal: Deviation -0.050% within thresholds
+2026-03-09 22:45:56,494 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99890898 (confidence: 0.00%)
+2026-03-09 22:45:56,494 - __main__ - INFO -   No signal: Deviation -0.090% within thresholds
+2026-03-09 22:45:56,495 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99970092 (confidence: 0.00%)
+2026-03-09 22:45:56,495 - __main__ - INFO -   No signal: Deviation -0.011% within thresholds
+2026-03-09 22:45:56,495 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00122656 (confidence: 0.00%)
+2026-03-09 22:45:56,495 - __main__ - INFO -   No signal: Deviation 0.130% within thresholds
+2026-03-09 22:45:56,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00092866 (confidence: 0.00%)
+2026-03-09 22:45:56,496 - __main__ - INFO -   No signal: Deviation 0.091% within thresholds
+2026-03-09 22:45:56,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00060368 (confidence: 0.00%)
+2026-03-09 22:45:56,496 - __main__ - INFO -   No signal: Deviation 0.047% within thresholds
+2026-03-09 22:45:56,496 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00059504 (confidence: 0.00%)
+2026-03-09 22:45:56,496 - __main__ - INFO -   No signal: Deviation 0.038% within thresholds
+2026-03-09 22:45:56,498 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 22:45:56,498 - __main__ - INFO -   Max position add: 50%
+2026-03-09 22:45:56,499 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 22:45:56,499 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:45:56,499 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:45:56,499 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:45:56,499 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 22:45:56,500 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 22:45:56,500 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 22:45:56,500 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 22:45:56,501 - __main__ - WARNING -    Size: $250.00
+2026-03-09 22:45:56,501 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 22:45:56,501 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 22:45:56,501 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 22:45:56,501 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 22:45:56,502 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 22:45:56,502 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 22:45:56,505 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 22:45:56,505 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 22:45:56,505 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 22:45:56,506 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 22:45:56,506 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 22:45:56,506 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 22:45:56,506 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 22:45:56,507 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 22:45:56,507 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 22:45:56,508 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 22:45:56,508 - __main__ - INFO -    Order ID: binance_3
+2026-03-09 22:51:22,353 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:51:22,353 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:51:22,353 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:51:23,506 - websocket - INFO - Websocket connected
+2026-03-09 22:51:23,506 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:51:23,581 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:51:53,957 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:51:53,957 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:51:53,957 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:51:53,957 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:51:53,957 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:51:53,957 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:51:53,958 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:51:53,958 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:51:54,971 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:51:55,596 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:51:55,598 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:51:55,598 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:51:56,715 - websocket - INFO - Websocket connected
+2026-03-09 22:51:56,716 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:51:56,730 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:51:56,730 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:51:58,960 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:52:00,203 - websocket - INFO - Websocket connected
+2026-03-09 22:52:00,204 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:52:00,279 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:52:07,064 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:52:07,064 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:52:07,140 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:52:07,140 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:52:07,140 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:52:07,141 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:52:07,141 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99958612 (confidence: 0.00%)
+2026-03-09 22:52:07,141 - __main__ - INFO -   No signal: Deviation -0.185% within thresholds
+2026-03-09 22:52:07,141 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99872676 (confidence: 95.00%)
+2026-03-09 22:52:07,141 - __main__ - INFO -   Mean Reversion BUY: Price -0.255% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:52:07,142 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00088416 (confidence: 0.00%)
+2026-03-09 22:52:07,142 - __main__ - INFO -   No signal: Deviation -0.036% within thresholds
+2026-03-09 22:52:07,142 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00068429 (confidence: 0.00%)
+2026-03-09 22:52:07,142 - __main__ - INFO -   No signal: Deviation -0.049% within thresholds
+2026-03-09 22:52:07,142 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00003637 (confidence: 0.00%)
+2026-03-09 22:52:07,142 - __main__ - INFO -   No signal: Deviation -0.104% within thresholds
+2026-03-09 22:52:07,142 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00012245 (confidence: 0.00%)
+2026-03-09 22:52:07,142 - __main__ - INFO -   No signal: Deviation -0.086% within thresholds
+2026-03-09 22:52:07,143 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99955161 (confidence: 0.00%)
+2026-03-09 22:52:07,143 - __main__ - INFO -   No signal: Deviation -0.131% within thresholds
+2026-03-09 22:52:07,143 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99859414 (confidence: 95.00%)
+2026-03-09 22:52:07,143 - __main__ - INFO -   Mean Reversion BUY: Price -0.216% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:52:07,143 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00008564 (confidence: 0.00%)
+2026-03-09 22:52:07,143 - __main__ - INFO -   No signal: Deviation -0.062% within thresholds
+2026-03-09 22:52:07,143 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00071872 (confidence: 0.00%)
+2026-03-09 22:52:07,143 - __main__ - INFO -   No signal: Deviation 0.002% within thresholds
+2026-03-09 22:52:07,144 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00098945 (confidence: 0.00%)
+2026-03-09 22:52:07,144 - __main__ - INFO -   No signal: Deviation 0.026% within thresholds
+2026-03-09 22:52:07,144 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99927714 (confidence: 0.00%)
+2026-03-09 22:52:07,144 - __main__ - INFO -   No signal: Deviation -0.137% within thresholds
+2026-03-09 22:52:07,144 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00099313 (confidence: 0.00%)
+2026-03-09 22:52:07,144 - __main__ - INFO -   No signal: Deviation 0.039% within thresholds
+2026-03-09 22:52:07,145 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00110005 (confidence: 0.00%)
+2026-03-09 22:52:07,145 - __main__ - INFO -   No signal: Deviation 0.054% within thresholds
+2026-03-09 22:52:07,145 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00087520 (confidence: 0.00%)
+2026-03-09 22:52:07,145 - __main__ - INFO -   No signal: Deviation 0.037% within thresholds
+2026-03-09 22:52:07,145 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99993374 (confidence: 0.00%)
+2026-03-09 22:52:07,145 - __main__ - INFO -   No signal: Deviation -0.049% within thresholds
+2026-03-09 22:52:07,146 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99842096 (confidence: 0.00%)
+2026-03-09 22:52:07,146 - __main__ - INFO -   No signal: Deviation -0.186% within thresholds
+2026-03-09 22:52:07,146 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:52:07,146 - __main__ - INFO -   Mean Reversion BUY: Price -0.208% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:52:07,146 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:52:07,146 - __main__ - INFO -   No signal: Deviation -0.189% within thresholds
+2026-03-09 22:52:07,146 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99869484 (confidence: 0.00%)
+2026-03-09 22:52:07,147 - __main__ - INFO -   No signal: Deviation -0.107% within thresholds
+2026-03-09 22:52:07,147 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99939824 (confidence: 0.00%)
+2026-03-09 22:52:07,147 - __main__ - INFO -   No signal: Deviation -0.036% within thresholds
+2026-03-09 22:52:07,147 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99940993 (confidence: 0.00%)
+2026-03-09 22:52:07,147 - __main__ - INFO -   No signal: Deviation -0.038% within thresholds
+2026-03-09 22:52:07,148 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99962593 (confidence: 0.00%)
+2026-03-09 22:52:07,148 - __main__ - INFO -   No signal: Deviation -0.010% within thresholds
+2026-03-09 22:52:07,148 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00031156 (confidence: 0.00%)
+2026-03-09 22:52:07,148 - __main__ - INFO -   No signal: Deviation 0.060% within thresholds
+2026-03-09 22:52:07,148 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00050757 (confidence: 0.00%)
+2026-03-09 22:52:07,148 - __main__ - INFO -   No signal: Deviation 0.078% within thresholds
+2026-03-09 22:52:07,148 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00039079 (confidence: 0.00%)
+2026-03-09 22:52:07,149 - __main__ - INFO -   No signal: Deviation 0.065% within thresholds
+2026-03-09 22:52:07,149 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00012638 (confidence: 0.00%)
+2026-03-09 22:52:07,149 - __main__ - INFO -   No signal: Deviation 0.035% within thresholds
+2026-03-09 22:52:07,149 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00092464 (confidence: 0.00%)
+2026-03-09 22:52:07,149 - __main__ - INFO -   No signal: Deviation 0.104% within thresholds
+2026-03-09 22:52:07,149 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00011167 (confidence: 0.00%)
+2026-03-09 22:52:07,149 - __main__ - INFO -   No signal: Deviation 0.022% within thresholds
+2026-03-09 22:52:07,149 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00082439 (confidence: 0.00%)
+2026-03-09 22:52:07,150 - __main__ - INFO -   No signal: Deviation 0.093% within thresholds
+2026-03-09 22:52:07,150 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00065257 (confidence: 0.00%)
+2026-03-09 22:52:07,150 - __main__ - INFO -   No signal: Deviation 0.077% within thresholds
+2026-03-09 22:52:07,150 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00156087 (confidence: 0.00%)
+2026-03-09 22:52:07,150 - __main__ - INFO -   No signal: Deviation 0.157% within thresholds
+2026-03-09 22:52:07,150 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00191295 (confidence: 0.00%)
+2026-03-09 22:52:07,150 - __main__ - INFO -   No signal: Deviation 0.187% within thresholds
+2026-03-09 22:52:07,151 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:52:07,151 - __main__ - INFO -   No signal: Deviation 0.192% within thresholds
+2026-03-09 22:52:07,151 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:52:07,151 - __main__ - INFO -   No signal: Deviation 0.186% within thresholds
+2026-03-09 22:52:07,151 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:52:07,151 - __main__ - INFO -   No signal: Deviation 0.176% within thresholds
+2026-03-09 22:52:07,152 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:52:07,152 - __main__ - INFO -   No signal: Deviation 0.158% within thresholds
+2026-03-09 22:52:07,152 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00164868 (confidence: 0.00%)
+2026-03-09 22:52:07,152 - __main__ - INFO -   No signal: Deviation 0.104% within thresholds
+2026-03-09 22:52:07,152 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99995318 (confidence: 0.00%)
+2026-03-09 22:52:07,152 - __main__ - INFO -   No signal: Deviation -0.075% within thresholds
+2026-03-09 22:52:07,152 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99905219 (confidence: 0.00%)
+2026-03-09 22:52:07,152 - __main__ - INFO -   No signal: Deviation -0.167% within thresholds
+2026-03-09 22:52:07,153 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99946659 (confidence: 0.00%)
+2026-03-09 22:52:07,153 - __main__ - INFO -   No signal: Deviation -0.126% within thresholds
+2026-03-09 22:52:07,153 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99936626 (confidence: 0.00%)
+2026-03-09 22:52:07,153 - __main__ - INFO -   No signal: Deviation -0.135% within thresholds
+2026-03-09 22:52:07,153 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00015850 (confidence: 0.00%)
+2026-03-09 22:52:07,153 - __main__ - INFO -   No signal: Deviation -0.059% within thresholds
+2026-03-09 22:52:07,154 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00052120 (confidence: 0.00%)
+2026-03-09 22:52:07,154 - __main__ - INFO -   No signal: Deviation -0.024% within thresholds
+2026-03-09 22:52:07,154 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00032164 (confidence: 0.00%)
+2026-03-09 22:52:07,154 - __main__ - INFO -   No signal: Deviation -0.043% within thresholds
+2026-03-09 22:52:07,154 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00067361 (confidence: 0.00%)
+2026-03-09 22:52:07,154 - __main__ - INFO -   No signal: Deviation -0.009% within thresholds
+2026-03-09 22:52:07,155 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00132819 (confidence: 0.00%)
+2026-03-09 22:52:07,155 - __main__ - INFO -   No signal: Deviation 0.050% within thresholds
+2026-03-09 22:52:07,155 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00078470 (confidence: 0.00%)
+2026-03-09 22:52:07,155 - __main__ - INFO -   No signal: Deviation -0.003% within thresholds
+2026-03-09 22:52:07,155 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99998619 (confidence: 0.00%)
+2026-03-09 22:52:07,155 - __main__ - INFO -   No signal: Deviation -0.082% within thresholds
+2026-03-09 22:52:07,156 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99984057 (confidence: 0.00%)
+2026-03-09 22:52:07,156 - __main__ - INFO -   No signal: Deviation -0.092% within thresholds
+2026-03-09 22:52:07,156 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00096522 (confidence: 0.00%)
+2026-03-09 22:52:07,156 - __main__ - INFO -   No signal: Deviation 0.019% within thresholds
+2026-03-09 22:52:07,156 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00170434 (confidence: 0.00%)
+2026-03-09 22:52:07,156 - __main__ - INFO -   No signal: Deviation 0.092% within thresholds
+2026-03-09 22:52:07,158 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 22:52:07,158 - __main__ - INFO -   Max position add: 50%
+2026-03-09 22:52:07,158 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 22:52:07,158 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:52:07,158 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:52:07,158 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:52:07,158 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 22:52:07,158 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 22:52:07,158 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 22:52:07,158 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 22:52:07,159 - __main__ - WARNING -    Size: $250.00
+2026-03-09 22:52:07,159 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 22:52:07,159 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 22:52:07,159 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 22:52:07,159 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 22:52:07,159 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 22:52:07,159 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 22:52:07,161 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 22:52:07,161 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 22:52:07,161 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 22:52:07,161 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 22:52:07,161 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 22:52:07,161 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 22:52:07,161 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 22:52:07,161 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 22:52:07,161 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 22:52:07,162 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 22:52:07,162 - __main__ - INFO -    Order ID: binance_3
+2026-03-09 22:52:53,123 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 22:52:53,124 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:52:53,124 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:52:54,280 - websocket - INFO - Websocket connected
+2026-03-09 22:52:54,280 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:52:54,370 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:53:24,740 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:53:24,740 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 22:53:24,741 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 22:53:24,741 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 22:53:24,741 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 22:53:24,741 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 22:53:27,175 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 22:53:27,965 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 22:53:27,967 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 22:53:27,968 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 22:53:29,191 - websocket - INFO - Websocket connected
+2026-03-09 22:53:29,192 - __main__ - INFO - WebSocket connection opened
+2026-03-09 22:53:29,210 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 22:53:29,210 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 22:53:33,664 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 22:53:33,664 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 22:53:38,665 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 22:53:39,553 - __main__ - INFO - WebSocket disconnected
+2026-03-09 22:53:39,554 - __main__ - INFO - Data fetcher stopped
+2026-03-09 22:53:39,686 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 22:53:39,687 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 22:53:39,687 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 22:53:39,687 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 22:53:39,689 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,689 - __main__ - INFO -   No signal: Deviation 0.042% within thresholds
+2026-03-09 22:53:39,689 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00142629 (confidence: 0.00%)
+2026-03-09 22:53:39,690 - __main__ - INFO -   No signal: Deviation -0.015% within thresholds
+2026-03-09 22:53:39,690 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,690 - __main__ - INFO -   No signal: Deviation 0.042% within thresholds
+2026-03-09 22:53:39,691 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,691 - __main__ - INFO -   No signal: Deviation 0.042% within thresholds
+2026-03-09 22:53:39,691 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,692 - __main__ - INFO -   No signal: Deviation 0.041% within thresholds
+2026-03-09 22:53:39,692 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,693 - __main__ - INFO -   No signal: Deviation 0.028% within thresholds
+2026-03-09 22:53:39,693 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,693 - __main__ - INFO -   No signal: Deviation 0.018% within thresholds
+2026-03-09 22:53:39,694 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,694 - __main__ - INFO -   No signal: Deviation 0.011% within thresholds
+2026-03-09 22:53:39,694 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,694 - __main__ - INFO -   No signal: Deviation 0.010% within thresholds
+2026-03-09 22:53:39,695 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00183021 (confidence: 0.00%)
+2026-03-09 22:53:39,695 - __main__ - INFO -   No signal: Deviation -0.007% within thresholds
+2026-03-09 22:53:39,695 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-09 22:53:39,696 - __main__ - INFO -   No signal: Deviation 0.008% within thresholds
+2026-03-09 22:53:39,699 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00018024 (confidence: 0.00%)
+2026-03-09 22:53:39,699 - __main__ - INFO -   No signal: Deviation -0.165% within thresholds
+2026-03-09 22:53:39,700 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00029790 (confidence: 0.00%)
+2026-03-09 22:53:39,700 - __main__ - INFO -   No signal: Deviation -0.145% within thresholds
+2026-03-09 22:53:39,700 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99937021 (confidence: 95.00%)
+2026-03-09 22:53:39,701 - __main__ - INFO -   Mean Reversion BUY: Price -0.227% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:53:39,701 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99842016 (confidence: 95.00%)
+2026-03-09 22:53:39,701 - __main__ - INFO -   Mean Reversion BUY: Price -0.305% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:53:39,702 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99837553 (confidence: 95.00%)
+2026-03-09 22:53:39,702 - __main__ - INFO -   Mean Reversion BUY: Price -0.292% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:53:39,702 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99840176 (confidence: 95.00%)
+2026-03-09 22:53:39,702 - __main__ - INFO -   Mean Reversion BUY: Price -0.271% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 22:53:39,703 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:53:39,703 - __main__ - INFO -   Mean Reversion BUY: Price -0.291% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:53:39,704 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:53:39,704 - __main__ - INFO -   Mean Reversion BUY: Price -0.271% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:53:39,705 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 22:53:39,705 - __main__ - INFO -   Mean Reversion BUY: Price -0.251% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:53:39,705 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99813061 (confidence: 95.00%)
+2026-03-09 22:53:39,706 - __main__ - INFO -   Mean Reversion BUY: Price -0.219% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 22:53:39,706 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99851535 (confidence: 0.00%)
+2026-03-09 22:53:39,706 - __main__ - INFO -   No signal: Deviation -0.166% within thresholds
+2026-03-09 22:53:39,707 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99852098 (confidence: 0.00%)
+2026-03-09 22:53:39,707 - __main__ - INFO -   No signal: Deviation -0.148% within thresholds
+2026-03-09 22:53:39,707 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99868189 (confidence: 0.00%)
+2026-03-09 22:53:39,708 - __main__ - INFO -   No signal: Deviation -0.115% within thresholds
+2026-03-09 22:53:39,708 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99877961 (confidence: 0.00%)
+2026-03-09 22:53:39,708 - __main__ - INFO -   No signal: Deviation -0.090% within thresholds
+2026-03-09 22:53:39,709 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99816274 (confidence: 0.00%)
+2026-03-09 22:53:39,709 - __main__ - INFO -   No signal: Deviation -0.132% within thresholds
+2026-03-09 22:53:39,709 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99917832 (confidence: 0.00%)
+2026-03-09 22:53:39,709 - __main__ - INFO -   No signal: Deviation -0.016% within thresholds
+2026-03-09 22:53:39,710 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99941373 (confidence: 0.00%)
+2026-03-09 22:53:39,710 - __main__ - INFO -   No signal: Deviation 0.020% within thresholds
+2026-03-09 22:53:39,710 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99903073 (confidence: 0.00%)
+2026-03-09 22:53:39,710 - __main__ - INFO -   No signal: Deviation -0.003% within thresholds
+2026-03-09 22:53:39,711 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99977998 (confidence: 0.00%)
+2026-03-09 22:53:39,711 - __main__ - INFO -   No signal: Deviation 0.082% within thresholds
+2026-03-09 22:53:39,711 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99945552 (confidence: 0.00%)
+2026-03-09 22:53:39,712 - __main__ - INFO -   No signal: Deviation 0.062% within thresholds
+2026-03-09 22:53:39,712 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99887330 (confidence: 0.00%)
+2026-03-09 22:53:39,712 - __main__ - INFO -   No signal: Deviation 0.010% within thresholds
+2026-03-09 22:53:39,713 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,713 - __main__ - INFO -   No signal: Deviation -0.066% within thresholds
+2026-03-09 22:53:39,714 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99833323 (confidence: 0.00%)
+2026-03-09 22:53:39,714 - __main__ - INFO -   No signal: Deviation -0.027% within thresholds
+2026-03-09 22:53:39,714 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,714 - __main__ - INFO -   No signal: Deviation -0.058% within thresholds
+2026-03-09 22:53:39,715 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,715 - __main__ - INFO -   No signal: Deviation -0.056% within thresholds
+2026-03-09 22:53:39,715 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,716 - __main__ - INFO -   No signal: Deviation -0.054% within thresholds
+2026-03-09 22:53:39,716 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99936567 (confidence: 0.00%)
+2026-03-09 22:53:39,716 - __main__ - INFO -   No signal: Deviation 0.076% within thresholds
+2026-03-09 22:53:39,717 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99990453 (confidence: 0.00%)
+2026-03-09 22:53:39,717 - __main__ - INFO -   No signal: Deviation 0.120% within thresholds
+2026-03-09 22:53:39,717 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99850782 (confidence: 0.00%)
+2026-03-09 22:53:39,718 - __main__ - INFO -   No signal: Deviation -0.022% within thresholds
+2026-03-09 22:53:39,718 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,718 - __main__ - INFO -   No signal: Deviation -0.073% within thresholds
+2026-03-09 22:53:39,719 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99805413 (confidence: 0.00%)
+2026-03-09 22:53:39,719 - __main__ - INFO -   No signal: Deviation -0.065% within thresholds
+2026-03-09 22:53:39,719 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,719 - __main__ - INFO -   No signal: Deviation -0.068% within thresholds
+2026-03-09 22:53:39,720 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,720 - __main__ - INFO -   No signal: Deviation -0.064% within thresholds
+2026-03-09 22:53:39,720 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99835084 (confidence: 0.00%)
+2026-03-09 22:53:39,721 - __main__ - INFO -   No signal: Deviation -0.027% within thresholds
+2026-03-09 22:53:39,721 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99841793 (confidence: 0.00%)
+2026-03-09 22:53:39,721 - __main__ - INFO -   No signal: Deviation -0.022% within thresholds
+2026-03-09 22:53:39,722 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,722 - __main__ - INFO -   No signal: Deviation -0.058% within thresholds
+2026-03-09 22:53:39,723 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,723 - __main__ - INFO -   No signal: Deviation -0.050% within thresholds
+2026-03-09 22:53:39,724 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99885941 (confidence: 0.00%)
+2026-03-09 22:53:39,724 - __main__ - INFO -   No signal: Deviation 0.036% within thresholds
+2026-03-09 22:53:39,724 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99869402 (confidence: 0.00%)
+2026-03-09 22:53:39,725 - __main__ - INFO -   No signal: Deviation 0.025% within thresholds
+2026-03-09 22:53:39,725 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99893153 (confidence: 0.00%)
+2026-03-09 22:53:39,725 - __main__ - INFO -   No signal: Deviation 0.052% within thresholds
+2026-03-09 22:53:39,726 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 22:53:39,726 - __main__ - INFO -   No signal: Deviation -0.037% within thresholds
+2026-03-09 22:53:39,728 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 22:53:39,729 - __main__ - INFO -   Max position add: 50%
+2026-03-09 22:53:39,729 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 22:53:39,730 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:53:39,730 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:53:39,730 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 22:53:39,730 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 22:53:39,730 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 22:53:39,731 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 22:53:39,731 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 22:53:39,731 - __main__ - WARNING -    Size: $250.00
+2026-03-09 22:53:39,731 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 22:53:39,732 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 22:53:39,732 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 22:53:39,732 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 22:53:39,732 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 22:53:39,732 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 22:53:39,737 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 22:53:39,737 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 22:53:39,846 - websocket - INFO - Websocket connected
+2026-03-09 23:00:19,738 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:00:19,739 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 23:00:19,739 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 23:00:19,745 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 23:00:19,745 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:00:19,754 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 23:00:19,761 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 23:00:19,767 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 23:00:19,768 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 23:00:27,432 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 23:00:27,432 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 23:00:27,432 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-09 23:00:27,432 - __main__ - INFO -    Fees: $0.2502
+2026-03-09 23:00:27,433 - __main__ - INFO -    Balance: $9749.90
+2026-03-09 23:00:27,433 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 23:00:28,169 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 23:00:28,170 - __main__ - INFO -    Order ID: binance_3
+2026-03-09 23:00:28,180 - __main__ - ERROR - WebSocket error: [Errno 32] Broken pipe
+2026-03-09 23:00:28,181 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 23:00:29,448 - websocket - INFO - Websocket connected
+2026-03-09 23:00:30,689 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:00:30,790 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:08:01,366 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 23:08:01,366 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 23:08:01,366 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 23:08:02,570 - websocket - INFO - Websocket connected
+2026-03-09 23:08:02,571 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:08:02,591 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:08:32,597 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 23:08:32,597 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 23:08:32,911 - __main__ - INFO - WebSocket disconnected
+2026-03-09 23:08:32,911 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 23:08:32,911 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 23:08:32,912 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 23:08:32,912 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 23:08:32,912 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 23:08:33,861 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 23:08:34,418 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 23:08:34,420 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 23:08:34,420 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 23:08:35,645 - websocket - INFO - Websocket connected
+2026-03-09 23:08:35,646 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:08:35,747 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:08:35,747 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 23:08:37,601 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 23:08:38,820 - websocket - INFO - Websocket connected
+2026-03-09 23:08:38,821 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:08:38,822 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:08:46,091 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 23:08:46,091 - __main__ - INFO - WebSocket disconnected
+2026-03-09 23:08:46,091 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 23:08:46,091 - __main__ - INFO - Data fetcher stopped
+2026-03-09 23:08:46,169 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 23:08:46,169 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 23:08:46,169 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 23:08:46,169 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 23:08:46,169 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99893356 (confidence: 0.00%)
+2026-03-09 23:08:46,170 - __main__ - INFO -   No signal: Deviation -0.149% within thresholds
+2026-03-09 23:08:46,170 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,170 - __main__ - INFO -   Mean Reversion BUY: Price -0.229% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,170 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99848647 (confidence: 0.00%)
+2026-03-09 23:08:46,170 - __main__ - INFO -   No signal: Deviation -0.167% within thresholds
+2026-03-09 23:08:46,170 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,170 - __main__ - INFO -   Mean Reversion BUY: Price -0.200% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,171 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:08:46,171 - __main__ - INFO -   No signal: Deviation -0.180% within thresholds
+2026-03-09 23:08:46,171 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99853186 (confidence: 0.00%)
+2026-03-09 23:08:46,171 - __main__ - INFO -   No signal: Deviation -0.110% within thresholds
+2026-03-09 23:08:46,171 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99950096 (confidence: 0.00%)
+2026-03-09 23:08:46,171 - __main__ - INFO -   No signal: Deviation -0.000% within thresholds
+2026-03-09 23:08:46,171 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99979757 (confidence: 0.00%)
+2026-03-09 23:08:46,171 - __main__ - INFO -   No signal: Deviation 0.041% within thresholds
+2026-03-09 23:08:46,172 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00010330 (confidence: 0.00%)
+2026-03-09 23:08:46,172 - __main__ - INFO -   No signal: Deviation 0.075% within thresholds
+2026-03-09 23:08:46,172 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99966845 (confidence: 0.00%)
+2026-03-09 23:08:46,172 - __main__ - INFO -   No signal: Deviation 0.035% within thresholds
+2026-03-09 23:08:46,172 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99946146 (confidence: 0.00%)
+2026-03-09 23:08:46,172 - __main__ - INFO -   No signal: Deviation 0.016% within thresholds
+2026-03-09 23:08:46,172 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99950820 (confidence: 0.00%)
+2026-03-09 23:08:46,172 - __main__ - INFO -   No signal: Deviation 0.022% within thresholds
+2026-03-09 23:08:46,173 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99874699 (confidence: 0.00%)
+2026-03-09 23:08:46,173 - __main__ - INFO -   No signal: Deviation -0.048% within thresholds
+2026-03-09 23:08:46,173 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99826987 (confidence: 0.00%)
+2026-03-09 23:08:46,173 - __main__ - INFO -   No signal: Deviation -0.082% within thresholds
+2026-03-09 23:08:46,173 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99845211 (confidence: 0.00%)
+2026-03-09 23:08:46,173 - __main__ - INFO -   No signal: Deviation -0.056% within thresholds
+2026-03-09 23:08:46,173 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99842115 (confidence: 0.00%)
+2026-03-09 23:08:46,173 - __main__ - INFO -   No signal: Deviation -0.055% within thresholds
+2026-03-09 23:08:46,174 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:08:46,174 - __main__ - INFO -   No signal: Deviation -0.092% within thresholds
+2026-03-09 23:08:46,174 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:08:46,174 - __main__ - INFO -   No signal: Deviation -0.087% within thresholds
+2026-03-09 23:08:46,174 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99853744 (confidence: 0.00%)
+2026-03-09 23:08:46,174 - __main__ - INFO -   No signal: Deviation -0.029% within thresholds
+2026-03-09 23:08:46,175 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99845619 (confidence: 0.00%)
+2026-03-09 23:08:46,175 - __main__ - INFO -   No signal: Deviation -0.029% within thresholds
+2026-03-09 23:08:46,175 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:08:46,175 - __main__ - INFO -   No signal: Deviation -0.070% within thresholds
+2026-03-09 23:08:46,175 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:08:46,175 - __main__ - INFO -   No signal: Deviation -0.070% within thresholds
+2026-03-09 23:08:46,175 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99851947 (confidence: 0.00%)
+2026-03-09 23:08:46,176 - __main__ - INFO -   No signal: Deviation -0.018% within thresholds
+2026-03-09 23:08:46,176 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99898529 (confidence: 0.00%)
+2026-03-09 23:08:46,176 - __main__ - INFO -   No signal: Deviation 0.024% within thresholds
+2026-03-09 23:08:46,176 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99809167 (confidence: 0.00%)
+2026-03-09 23:08:46,176 - __main__ - INFO -   No signal: Deviation -0.066% within thresholds
+2026-03-09 23:08:46,176 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:08:46,177 - __main__ - INFO -   No signal: Deviation -0.073% within thresholds
+2026-03-09 23:08:46,177 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99906082 (confidence: 0.00%)
+2026-03-09 23:08:46,177 - __main__ - INFO -   No signal: Deviation 0.036% within thresholds
+2026-03-09 23:08:46,177 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99976330 (confidence: 0.00%)
+2026-03-09 23:08:46,177 - __main__ - INFO -   No signal: Deviation 0.106% within thresholds
+2026-03-09 23:08:46,177 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99977550 (confidence: 0.00%)
+2026-03-09 23:08:46,178 - __main__ - INFO -   No signal: Deviation 0.109% within thresholds
+2026-03-09 23:08:46,178 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99938840 (confidence: 0.00%)
+2026-03-09 23:08:46,178 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-09 23:08:46,179 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99849447 (confidence: 0.00%)
+2026-03-09 23:08:46,179 - __main__ - INFO -   No signal: Deviation -0.013% within thresholds
+2026-03-09 23:08:46,179 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00001545 (confidence: 0.00%)
+2026-03-09 23:08:46,179 - __main__ - INFO -   No signal: Deviation 0.137% within thresholds
+2026-03-09 23:08:46,180 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00047036 (confidence: 0.00%)
+2026-03-09 23:08:46,180 - __main__ - INFO -   No signal: Deviation 0.174% within thresholds
+2026-03-09 23:08:46,180 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00076293 (confidence: 0.00%)
+2026-03-09 23:08:46,180 - __main__ - INFO -   No signal: Deviation 0.191% within thresholds
+2026-03-09 23:08:46,180 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00103549 (confidence: 95.00%)
+2026-03-09 23:08:46,180 - __main__ - INFO -   Mean Reversion SELL: Price 0.205% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 23:08:46,181 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00196424 (confidence: 95.00%)
+2026-03-09 23:08:46,181 - __main__ - INFO -   Mean Reversion SELL: Price 0.280% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 23:08:46,181 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 23:08:46,181 - __main__ - INFO -   Mean Reversion SELL: Price 0.264% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 23:08:46,182 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 23:08:46,182 - __main__ - INFO -   Mean Reversion SELL: Price 0.244% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,182 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 23:08:46,182 - __main__ - INFO -   Mean Reversion SELL: Price 0.226% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,182 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00113815 (confidence: 0.00%)
+2026-03-09 23:08:46,182 - __main__ - INFO -   No signal: Deviation 0.127% within thresholds
+2026-03-09 23:08:46,183 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00115995 (confidence: 0.00%)
+2026-03-09 23:08:46,183 - __main__ - INFO -   No signal: Deviation 0.113% within thresholds
+2026-03-09 23:08:46,183 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00100158 (confidence: 0.00%)
+2026-03-09 23:08:46,183 - __main__ - INFO -   No signal: Deviation 0.082% within thresholds
+2026-03-09 23:08:46,183 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00084414 (confidence: 0.00%)
+2026-03-09 23:08:46,183 - __main__ - INFO -   No signal: Deviation 0.055% within thresholds
+2026-03-09 23:08:46,184 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00135186 (confidence: 0.00%)
+2026-03-09 23:08:46,184 - __main__ - INFO -   No signal: Deviation 0.094% within thresholds
+2026-03-09 23:08:46,184 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99974752 (confidence: 0.00%)
+2026-03-09 23:08:46,184 - __main__ - INFO -   No signal: Deviation -0.075% within thresholds
+2026-03-09 23:08:46,184 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99888902 (confidence: 0.00%)
+2026-03-09 23:08:46,184 - __main__ - INFO -   No signal: Deviation -0.165% within thresholds
+2026-03-09 23:08:46,185 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99803171 (confidence: 95.00%)
+2026-03-09 23:08:46,185 - __main__ - INFO -   Mean Reversion BUY: Price -0.246% below MA | Below Lower Bollinger Band (Strong)
+2026-03-09 23:08:46,185 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,185 - __main__ - INFO -   Mean Reversion BUY: Price -0.240% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,185 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,185 - __main__ - INFO -   Mean Reversion BUY: Price -0.231% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,186 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,186 - __main__ - INFO -   Mean Reversion BUY: Price -0.224% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,186 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,186 - __main__ - INFO -   Mean Reversion BUY: Price -0.222% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,186 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-09 23:08:46,186 - __main__ - INFO -   Mean Reversion BUY: Price -0.212% below MA | Below Middle Bollinger Band (Mild)
+2026-03-09 23:08:46,190 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 23:08:46,195 - __main__ - INFO -   Max position add: 50%
+2026-03-09 23:08:46,195 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 23:08:46,195 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 23:08:46,199 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 23:08:46,199 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 23:08:46,199 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 23:08:46,199 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 23:08:46,199 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 23:08:46,199 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 23:08:46,199 - __main__ - WARNING -    Size: $250.00
+2026-03-09 23:08:46,199 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 23:08:46,199 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 23:08:46,200 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 23:08:46,200 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 23:08:46,200 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 23:08:46,200 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 23:08:46,203 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 23:08:46,204 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 23:08:46,204 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 23:08:46,204 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 23:08:46,204 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 23:08:46,204 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 23:08:46,204 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 23:08:46,204 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 23:08:46,204 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 23:08:46,204 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-09 23:08:46,205 - __main__ - INFO -    Fees: $0.2502
+2026-03-09 23:08:46,205 - __main__ - INFO -    Balance: $9749.90
+2026-03-09 23:08:46,205 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 23:08:46,205 - __main__ - INFO -    Order ID: binance_3
+2026-03-09 23:17:24,925 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-09 23:17:24,925 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 23:17:24,925 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 23:17:26,183 - websocket - INFO - Websocket connected
+2026-03-09 23:17:26,183 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:17:26,233 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:17:56,596 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 23:17:56,596 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 23:17:56,596 - __main__ - INFO - WebSocket disconnected
+2026-03-09 23:17:56,597 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-09 23:17:56,598 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-09 23:17:56,598 - __main__ - INFO - Added callback: on_new_candle
+2026-03-09 23:17:56,599 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-09 23:17:56,599 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-09 23:17:57,469 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-02 to 2026-03-09)
+2026-03-09 23:17:58,133 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-09 23:17:58,135 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-09 23:17:58,135 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-09 23:17:59,361 - websocket - INFO - Websocket connected
+2026-03-09 23:17:59,361 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:17:59,376 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:17:59,376 - __main__ - INFO - Hybrid data fetcher started
+2026-03-09 23:18:01,602 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-09 23:18:02,843 - websocket - INFO - Websocket connected
+2026-03-09 23:18:02,843 - __main__ - INFO - WebSocket connection opened
+2026-03-09 23:18:02,944 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-09 23:18:09,511 - __main__ - WARNING - WebSocket closed: None
+2026-03-09 23:18:09,511 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-09 23:18:09,711 - __main__ - INFO - WebSocket disconnected
+2026-03-09 23:18:09,711 - __main__ - INFO - Data fetcher stopped
+2026-03-09 23:18:09,784 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-09 23:18:09,784 - __main__ - INFO -   MA periods: 20/50
+2026-03-09 23:18:09,784 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-09 23:18:09,784 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-09 23:18:09,785 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99831613 (confidence: 0.00%)
+2026-03-09 23:18:09,785 - __main__ - INFO -   No signal: Deviation -0.111% within thresholds
+2026-03-09 23:18:09,785 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99812152 (confidence: 0.00%)
+2026-03-09 23:18:09,785 - __main__ - INFO -   No signal: Deviation -0.122% within thresholds
+2026-03-09 23:18:09,785 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:18:09,785 - __main__ - INFO -   No signal: Deviation -0.126% within thresholds
+2026-03-09 23:18:09,785 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:18:09,785 - __main__ - INFO -   No signal: Deviation -0.114% within thresholds
+2026-03-09 23:18:09,786 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99816236 (confidence: 0.00%)
+2026-03-09 23:18:09,786 - __main__ - INFO -   No signal: Deviation -0.093% within thresholds
+2026-03-09 23:18:09,786 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:18:09,786 - __main__ - INFO -   No signal: Deviation -0.099% within thresholds
+2026-03-09 23:18:09,786 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99847780 (confidence: 0.00%)
+2026-03-09 23:18:09,786 - __main__ - INFO -   No signal: Deviation -0.043% within thresholds
+2026-03-09 23:18:09,786 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99805498 (confidence: 0.00%)
+2026-03-09 23:18:09,787 - __main__ - INFO -   No signal: Deviation -0.072% within thresholds
+2026-03-09 23:18:09,787 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99904285 (confidence: 0.00%)
+2026-03-09 23:18:09,787 - __main__ - INFO -   No signal: Deviation 0.036% within thresholds
+2026-03-09 23:18:09,787 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99952187 (confidence: 0.00%)
+2026-03-09 23:18:09,787 - __main__ - INFO -   No signal: Deviation 0.089% within thresholds
+2026-03-09 23:18:09,787 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00037863 (confidence: 0.00%)
+2026-03-09 23:18:09,787 - __main__ - INFO -   No signal: Deviation 0.174% within thresholds
+2026-03-09 23:18:09,787 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00077438 (confidence: 95.00%)
+2026-03-09 23:18:09,788 - __main__ - INFO -   Mean Reversion SELL: Price 0.211% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 23:18:09,788 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00031449 (confidence: 0.00%)
+2026-03-09 23:18:09,788 - __main__ - INFO -   No signal: Deviation 0.164% within thresholds
+2026-03-09 23:18:09,788 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99980585 (confidence: 0.00%)
+2026-03-09 23:18:09,788 - __main__ - INFO -   No signal: Deviation 0.111% within thresholds
+2026-03-09 23:18:09,788 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00047309 (confidence: 0.00%)
+2026-03-09 23:18:09,788 - __main__ - INFO -   No signal: Deviation 0.165% within thresholds
+2026-03-09 23:18:09,789 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 23:18:09,789 - __main__ - INFO -   Mean Reversion SELL: Price 0.298% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 23:18:09,789 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-09 23:18:09,789 - __main__ - INFO -   Mean Reversion SELL: Price 0.278% above MA | Above Upper Bollinger Band (Strong)
+2026-03-09 23:18:09,790 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00191645 (confidence: 95.00%)
+2026-03-09 23:18:09,790 - __main__ - INFO -   Mean Reversion SELL: Price 0.250% above MA | Above Middle Bollinger Band (Mild)
+2026-03-09 23:18:09,790 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00086371 (confidence: 0.00%)
+2026-03-09 23:18:09,790 - __main__ - INFO -   No signal: Deviation 0.130% within thresholds
+2026-03-09 23:18:09,791 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922795 (confidence: 0.00%)
+2026-03-09 23:18:09,791 - __main__ - INFO -   No signal: Deviation -0.034% within thresholds
+2026-03-09 23:18:09,791 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99953489 (confidence: 0.00%)
+2026-03-09 23:18:09,791 - __main__ - INFO -   No signal: Deviation -0.010% within thresholds
+2026-03-09 23:18:09,791 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99857893 (confidence: 0.00%)
+2026-03-09 23:18:09,791 - __main__ - INFO -   No signal: Deviation -0.108% within thresholds
+2026-03-09 23:18:09,791 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:18:09,791 - __main__ - INFO -   No signal: Deviation -0.166% within thresholds
+2026-03-09 23:18:09,792 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99896617 (confidence: 0.00%)
+2026-03-09 23:18:09,792 - __main__ - INFO -   No signal: Deviation -0.074% within thresholds
+2026-03-09 23:18:09,792 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00164546 (confidence: 0.00%)
+2026-03-09 23:18:09,792 - __main__ - INFO -   No signal: Deviation 0.177% within thresholds
+2026-03-09 23:18:09,792 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00101845 (confidence: 0.00%)
+2026-03-09 23:18:09,792 - __main__ - INFO -   No signal: Deviation 0.099% within thresholds
+2026-03-09 23:18:09,792 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00024569 (confidence: 0.00%)
+2026-03-09 23:18:09,792 - __main__ - INFO -   No signal: Deviation 0.013% within thresholds
+2026-03-09 23:18:09,793 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99960879 (confidence: 0.00%)
+2026-03-09 23:18:09,793 - __main__ - INFO -   No signal: Deviation -0.059% within thresholds
+2026-03-09 23:18:09,793 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99871911 (confidence: 0.00%)
+2026-03-09 23:18:09,793 - __main__ - INFO -   No signal: Deviation -0.146% within thresholds
+2026-03-09 23:18:09,793 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99842806 (confidence: 0.00%)
+2026-03-09 23:18:09,793 - __main__ - INFO -   No signal: Deviation -0.170% within thresholds
+2026-03-09 23:18:09,793 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99887751 (confidence: 0.00%)
+2026-03-09 23:18:09,794 - __main__ - INFO -   No signal: Deviation -0.117% within thresholds
+2026-03-09 23:18:09,794 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:18:09,794 - __main__ - INFO -   No signal: Deviation -0.191% within thresholds
+2026-03-09 23:18:09,794 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-09 23:18:09,794 - __main__ - INFO -   No signal: Deviation -0.180% within thresholds
+2026-03-09 23:18:09,794 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99821275 (confidence: 0.00%)
+2026-03-09 23:18:09,794 - __main__ - INFO -   No signal: Deviation -0.150% within thresholds
+2026-03-09 23:18:09,795 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99802933 (confidence: 0.00%)
+2026-03-09 23:18:09,795 - __main__ - INFO -   No signal: Deviation -0.156% within thresholds
+2026-03-09 23:18:09,795 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99972827 (confidence: 0.00%)
+2026-03-09 23:18:09,795 - __main__ - INFO -   No signal: Deviation 0.025% within thresholds
+2026-03-09 23:18:09,795 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99919924 (confidence: 0.00%)
+2026-03-09 23:18:09,795 - __main__ - INFO -   No signal: Deviation -0.014% within thresholds
+2026-03-09 23:18:09,795 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99928630 (confidence: 0.00%)
+2026-03-09 23:18:09,795 - __main__ - INFO -   No signal: Deviation 0.008% within thresholds
+2026-03-09 23:18:09,796 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99993277 (confidence: 0.00%)
+2026-03-09 23:18:09,796 - __main__ - INFO -   No signal: Deviation 0.077% within thresholds
+2026-03-09 23:18:09,796 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99953284 (confidence: 0.00%)
+2026-03-09 23:18:09,796 - __main__ - INFO -   No signal: Deviation 0.036% within thresholds
+2026-03-09 23:18:09,796 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99978411 (confidence: 0.00%)
+2026-03-09 23:18:09,796 - __main__ - INFO -   No signal: Deviation 0.059% within thresholds
+2026-03-09 23:18:09,796 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99909418 (confidence: 0.00%)
+2026-03-09 23:18:09,796 - __main__ - INFO -   No signal: Deviation -0.012% within thresholds
+2026-03-09 23:18:09,797 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99986027 (confidence: 0.00%)
+2026-03-09 23:18:09,797 - __main__ - INFO -   No signal: Deviation 0.055% within thresholds
+2026-03-09 23:18:09,797 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99943028 (confidence: 0.00%)
+2026-03-09 23:18:09,797 - __main__ - INFO -   No signal: Deviation 0.010% within thresholds
+2026-03-09 23:18:09,797 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00023757 (confidence: 0.00%)
+2026-03-09 23:18:09,797 - __main__ - INFO -   No signal: Deviation 0.098% within thresholds
+2026-03-09 23:18:09,797 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99939284 (confidence: 0.00%)
+2026-03-09 23:18:09,798 - __main__ - INFO -   No signal: Deviation 0.021% within thresholds
+2026-03-09 23:18:09,798 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99947452 (confidence: 0.00%)
+2026-03-09 23:18:09,798 - __main__ - INFO -   No signal: Deviation 0.033% within thresholds
+2026-03-09 23:18:09,800 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99976363 (confidence: 0.00%)
+2026-03-09 23:18:09,801 - __main__ - INFO -   No signal: Deviation 0.061% within thresholds
+2026-03-09 23:18:09,801 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00005775 (confidence: 0.00%)
+2026-03-09 23:18:09,801 - __main__ - INFO -   No signal: Deviation 0.084% within thresholds
+2026-03-09 23:18:09,801 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00126110 (confidence: 0.00%)
+2026-03-09 23:18:09,801 - __main__ - INFO -   No signal: Deviation 0.190% within thresholds
+2026-03-09 23:18:09,802 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00120441 (confidence: 0.00%)
+2026-03-09 23:18:09,802 - __main__ - INFO -   No signal: Deviation 0.173% within thresholds
+2026-03-09 23:18:09,802 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00114618 (confidence: 0.00%)
+2026-03-09 23:18:09,802 - __main__ - INFO -   No signal: Deviation 0.152% within thresholds
+2026-03-09 23:18:09,804 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-09 23:18:09,804 - __main__ - INFO -   Max position add: 50%
+2026-03-09 23:18:09,806 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-09 23:18:09,806 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 23:18:09,807 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 23:18:09,807 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-09 23:18:09,807 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-09 23:18:09,807 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-09 23:18:09,807 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-09 23:18:09,807 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-09 23:18:09,807 - __main__ - WARNING -    Size: $250.00
+2026-03-09 23:18:09,808 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-09 23:18:09,808 - __main__ - WARNING -    Current: 1.00100000
+2026-03-09 23:18:09,808 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-09 23:18:09,808 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-09 23:18:09,808 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-09 23:18:09,808 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-09 23:18:09,810 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-09 23:18:09,810 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-09 23:18:09,811 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-09 23:18:09,811 - __main__ - INFO -    Order ID: binance_1
+2026-03-09 23:18:09,811 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-09 23:18:09,811 - __main__ - INFO -    Fees: $0.7490
+2026-03-09 23:18:09,811 - __main__ - INFO -    Balance: $9499.90
+2026-03-09 23:18:09,811 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-09 23:18:09,811 - __main__ - INFO -    Order ID: binance_2
+2026-03-09 23:18:09,811 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-09 23:18:09,812 - __main__ - INFO -    Fees: $0.2502
+2026-03-09 23:18:09,812 - __main__ - INFO -    Balance: $9749.90
+2026-03-09 23:18:09,812 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-09 23:18:09,812 - __main__ - INFO -    Order ID: binance_3
+2026-03-12 19:29:01,942 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-12 19:29:02,089 - __main__ - INFO - Added callback: on_new_candle
+2026-03-12 19:29:02,090 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-12 19:29:04,299 - websocket - INFO - Websocket connected
+2026-03-12 19:29:04,299 - __main__ - INFO - WebSocket connection opened
+2026-03-12 19:29:04,307 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-12 19:29:34,618 - __main__ - WARNING - WebSocket closed: None
+2026-03-12 19:29:34,618 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-12 19:29:34,652 - __main__ - INFO - WebSocket disconnected
+2026-03-12 19:29:34,653 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-12 19:29:34,653 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-12 19:29:34,653 - __main__ - INFO - Added callback: on_new_candle
+2026-03-12 19:29:34,653 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-12 19:29:34,653 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-12 19:29:37,013 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-05 to 2026-03-12)
+2026-03-12 19:29:37,680 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-12 19:29:37,682 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-12 19:29:37,682 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-12 19:29:39,015 - websocket - INFO - Websocket connected
+2026-03-12 19:29:39,016 - __main__ - INFO - WebSocket connection opened
+2026-03-12 19:29:39,029 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-12 19:29:39,030 - __main__ - INFO - Hybrid data fetcher started
+2026-03-12 19:29:39,619 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-12 19:29:41,160 - websocket - INFO - Websocket connected
+2026-03-12 19:29:41,160 - __main__ - INFO - WebSocket connection opened
+2026-03-12 19:29:41,263 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-12 19:29:49,453 - __main__ - INFO - WebSocket disconnected
+2026-03-12 19:29:49,454 - __main__ - INFO - Data fetcher stopped
+2026-03-12 19:29:56,429 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-12 19:29:56,429 - __main__ - INFO -   MA periods: 20/50
+2026-03-12 19:29:56,429 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-12 19:29:56,429 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-12 19:29:56,429 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00147323 (confidence: 95.00%)
+2026-03-12 19:29:56,430 - __main__ - INFO -   Mean Reversion SELL: Price 0.255% above MA | Above Upper Bollinger Band (Strong)
+2026-03-12 19:29:56,430 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00179892 (confidence: 95.00%)
+2026-03-12 19:29:56,430 - __main__ - INFO -   Mean Reversion SELL: Price 0.283% above MA | Above Upper Bollinger Band (Strong)
+2026-03-12 19:29:56,430 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-12 19:29:56,430 - __main__ - INFO -   Mean Reversion SELL: Price 0.291% above MA | Above Upper Bollinger Band (Strong)
+2026-03-12 19:29:56,430 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00194118 (confidence: 95.00%)
+2026-03-12 19:29:56,431 - __main__ - INFO -   Mean Reversion SELL: Price 0.271% above MA | Above Middle Bollinger Band (Mild)
+2026-03-12 19:29:56,431 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00194778 (confidence: 95.00%)
+2026-03-12 19:29:56,431 - __main__ - INFO -   Mean Reversion SELL: Price 0.254% above MA | Above Middle Bollinger Band (Mild)
+2026-03-12 19:29:56,431 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-12 19:29:56,431 - __main__ - INFO -   Mean Reversion SELL: Price 0.239% above MA | Above Middle Bollinger Band (Mild)
+2026-03-12 19:29:56,431 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-12 19:29:56,431 - __main__ - INFO -   Mean Reversion SELL: Price 0.219% above MA | Above Middle Bollinger Band (Mild)
+2026-03-12 19:29:56,432 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00138770 (confidence: 0.00%)
+2026-03-12 19:29:56,432 - __main__ - INFO -   No signal: Deviation 0.141% within thresholds
+2026-03-12 19:29:56,432 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00164267 (confidence: 0.00%)
+2026-03-12 19:29:56,432 - __main__ - INFO -   No signal: Deviation 0.149% within thresholds
+2026-03-12 19:29:56,432 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00177729 (confidence: 0.00%)
+2026-03-12 19:29:56,432 - __main__ - INFO -   No signal: Deviation 0.143% within thresholds
+2026-03-12 19:29:56,433 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,433 - __main__ - INFO -   No signal: Deviation 0.148% within thresholds
+2026-03-12 19:29:56,433 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,433 - __main__ - INFO -   No signal: Deviation 0.128% within thresholds
+2026-03-12 19:29:56,433 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00186869 (confidence: 0.00%)
+2026-03-12 19:29:56,433 - __main__ - INFO -   No signal: Deviation 0.096% within thresholds
+2026-03-12 19:29:56,433 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,434 - __main__ - INFO -   No signal: Deviation 0.090% within thresholds
+2026-03-12 19:29:56,434 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00149646 (confidence: 0.00%)
+2026-03-12 19:29:56,434 - __main__ - INFO -   No signal: Deviation 0.022% within thresholds
+2026-03-12 19:29:56,434 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00117609 (confidence: 0.00%)
+2026-03-12 19:29:56,434 - __main__ - INFO -   No signal: Deviation -0.022% within thresholds
+2026-03-12 19:29:56,434 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99975435 (confidence: 0.00%)
+2026-03-12 19:29:56,434 - __main__ - INFO -   No signal: Deviation -0.172% within thresholds
+2026-03-12 19:29:56,434 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99875764 (confidence: 95.00%)
+2026-03-12 19:29:56,435 - __main__ - INFO -   Mean Reversion BUY: Price -0.265% below MA | Below Lower Bollinger Band (Strong)
+2026-03-12 19:29:56,435 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99934489 (confidence: 95.00%)
+2026-03-12 19:29:56,435 - __main__ - INFO -   Mean Reversion BUY: Price -0.200% below MA | Below Lower Bollinger Band (Strong)
+2026-03-12 19:29:56,435 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00005534 (confidence: 0.00%)
+2026-03-12 19:29:56,435 - __main__ - INFO -   No signal: Deviation -0.126% within thresholds
+2026-03-12 19:29:56,435 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99984044 (confidence: 0.00%)
+2026-03-12 19:29:56,435 - __main__ - INFO -   No signal: Deviation -0.140% within thresholds
+2026-03-12 19:29:56,435 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00104464 (confidence: 0.00%)
+2026-03-12 19:29:56,436 - __main__ - INFO -   No signal: Deviation -0.016% within thresholds
+2026-03-12 19:29:56,440 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00114049 (confidence: 0.00%)
+2026-03-12 19:29:56,440 - __main__ - INFO -   No signal: Deviation -0.002% within thresholds
+2026-03-12 19:29:56,440 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00122440 (confidence: 0.00%)
+2026-03-12 19:29:56,441 - __main__ - INFO -   No signal: Deviation 0.010% within thresholds
+2026-03-12 19:29:56,441 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00102624 (confidence: 0.00%)
+2026-03-12 19:29:56,441 - __main__ - INFO -   No signal: Deviation -0.005% within thresholds
+2026-03-12 19:29:56,441 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00133783 (confidence: 0.00%)
+2026-03-12 19:29:56,441 - __main__ - INFO -   No signal: Deviation 0.029% within thresholds
+2026-03-12 19:29:56,441 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,441 - __main__ - INFO -   No signal: Deviation 0.096% within thresholds
+2026-03-12 19:29:56,442 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,442 - __main__ - INFO -   No signal: Deviation 0.092% within thresholds
+2026-03-12 19:29:56,443 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00183923 (confidence: 0.00%)
+2026-03-12 19:29:56,443 - __main__ - INFO -   No signal: Deviation 0.075% within thresholds
+2026-03-12 19:29:56,443 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00172324 (confidence: 0.00%)
+2026-03-12 19:29:56,443 - __main__ - INFO -   No signal: Deviation 0.064% within thresholds
+2026-03-12 19:29:56,443 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,443 - __main__ - INFO -   No signal: Deviation 0.092% within thresholds
+2026-03-12 19:29:56,443 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00179575 (confidence: 0.00%)
+2026-03-12 19:29:56,443 - __main__ - INFO -   No signal: Deviation 0.072% within thresholds
+2026-03-12 19:29:56,444 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,445 - __main__ - INFO -   No signal: Deviation 0.092% within thresholds
+2026-03-12 19:29:56,445 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00165366 (confidence: 0.00%)
+2026-03-12 19:29:56,445 - __main__ - INFO -   No signal: Deviation 0.059% within thresholds
+2026-03-12 19:29:56,445 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-12 19:29:56,445 - __main__ - INFO -   No signal: Deviation 0.091% within thresholds
+2026-03-12 19:29:56,445 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00050507 (confidence: 0.00%)
+2026-03-12 19:29:56,445 - __main__ - INFO -   No signal: Deviation -0.055% within thresholds
+2026-03-12 19:29:56,446 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99936217 (confidence: 0.00%)
+2026-03-12 19:29:56,446 - __main__ - INFO -   No signal: Deviation -0.167% within thresholds
+2026-03-12 19:29:56,446 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-12 19:29:56,446 - __main__ - INFO -   Mean Reversion BUY: Price -0.299% below MA | Below Lower Bollinger Band (Strong)
+2026-03-12 19:29:56,446 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-12 19:29:56,446 - __main__ - INFO -   Mean Reversion BUY: Price -0.292% below MA | Below Lower Bollinger Band (Strong)
+2026-03-12 19:29:56,446 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-12 19:29:56,446 - __main__ - INFO -   Mean Reversion BUY: Price -0.282% below MA | Below Lower Bollinger Band (Strong)
+2026-03-12 19:29:56,447 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99800000 (confidence: 95.00%)
+2026-03-12 19:29:56,447 - __main__ - INFO -   Mean Reversion BUY: Price -0.273% below MA | Below Middle Bollinger Band (Mild)
+2026-03-12 19:29:56,447 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99816654 (confidence: 95.00%)
+2026-03-12 19:29:56,447 - __main__ - INFO -   Mean Reversion BUY: Price -0.242% below MA | Below Middle Bollinger Band (Mild)
+2026-03-12 19:29:56,447 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99917902 (confidence: 0.00%)
+2026-03-12 19:29:56,447 - __main__ - INFO -   No signal: Deviation -0.131% within thresholds
+2026-03-12 19:29:56,448 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99926671 (confidence: 0.00%)
+2026-03-12 19:29:56,448 - __main__ - INFO -   No signal: Deviation -0.113% within thresholds
+2026-03-12 19:29:56,448 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00043242 (confidence: 0.00%)
+2026-03-12 19:29:56,448 - __main__ - INFO -   No signal: Deviation 0.007% within thresholds
+2026-03-12 19:29:56,448 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99943822 (confidence: 0.00%)
+2026-03-12 19:29:56,448 - __main__ - INFO -   No signal: Deviation -0.083% within thresholds
+2026-03-12 19:29:56,448 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99923820 (confidence: 0.00%)
+2026-03-12 19:29:56,448 - __main__ - INFO -   No signal: Deviation -0.089% within thresholds
+2026-03-12 19:29:56,449 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-12 19:29:56,449 - __main__ - INFO -   No signal: Deviation -0.193% within thresholds
+2026-03-12 19:29:56,449 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99850334 (confidence: 0.00%)
+2026-03-12 19:29:56,449 - __main__ - INFO -   No signal: Deviation -0.126% within thresholds
+2026-03-12 19:29:56,449 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-12 19:29:56,449 - __main__ - INFO -   No signal: Deviation -0.158% within thresholds
+2026-03-12 19:29:56,449 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99998812 (confidence: 0.00%)
+2026-03-12 19:29:56,449 - __main__ - INFO -   No signal: Deviation 0.051% within thresholds
+2026-03-12 19:29:56,450 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00025285 (confidence: 0.00%)
+2026-03-12 19:29:56,450 - __main__ - INFO -   No signal: Deviation 0.085% within thresholds
+2026-03-12 19:29:56,451 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-12 19:29:56,451 - __main__ - INFO -   Max position add: 50%
+2026-03-12 19:29:56,451 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-12 19:29:56,451 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-12 19:29:56,451 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-12 19:29:56,451 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-12 19:29:56,451 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-12 19:29:56,452 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-12 19:29:56,452 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-12 19:29:56,452 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-12 19:29:56,452 - __main__ - WARNING -    Size: $250.00
+2026-03-12 19:29:56,452 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-12 19:29:56,452 - __main__ - WARNING -    Current: 1.00100000
+2026-03-12 19:29:56,452 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-12 19:29:56,452 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-12 19:29:56,452 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-12 19:29:56,452 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-12 19:29:56,454 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-12 19:29:56,454 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-12 19:29:56,454 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-12 19:29:56,454 - __main__ - INFO -    Order ID: binance_1
+2026-03-12 19:29:56,454 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-12 19:29:56,454 - __main__ - INFO -    Fees: $0.7490
+2026-03-12 19:29:56,454 - __main__ - INFO -    Balance: $9499.90
+2026-03-12 19:29:56,455 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-12 19:29:56,455 - __main__ - INFO -    Order ID: binance_2
+2026-03-12 19:29:56,455 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-12 19:29:56,455 - __main__ - INFO -    Fees: $0.2502
+2026-03-12 19:29:56,455 - __main__ - INFO -    Balance: $9749.90
+2026-03-12 19:29:56,455 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-12 19:29:56,455 - __main__ - INFO -    Order ID: binance_3
+2026-03-13 19:52:40,408 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-13 19:52:40,409 - __main__ - INFO - Added callback: on_new_candle
+2026-03-13 19:52:40,409 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-13 19:52:41,687 - websocket - INFO - Websocket connected
+2026-03-13 19:52:41,687 - __main__ - INFO - WebSocket connection opened
+2026-03-13 19:52:41,742 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-13 19:53:12,045 - __main__ - WARNING - WebSocket closed: None
+2026-03-13 19:53:12,045 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-13 19:53:12,045 - __main__ - INFO - WebSocket disconnected
+2026-03-13 19:53:12,045 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-13 19:53:12,045 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-13 19:53:12,045 - __main__ - INFO - Added callback: on_new_candle
+2026-03-13 19:53:12,046 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-13 19:53:12,046 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-13 19:53:13,622 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-06 to 2026-03-13)
+2026-03-13 19:53:14,209 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-13 19:53:14,211 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-13 19:53:14,211 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-13 19:53:15,306 - websocket - INFO - Websocket connected
+2026-03-13 19:53:15,306 - __main__ - INFO - WebSocket connection opened
+2026-03-13 19:53:15,332 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-13 19:53:15,333 - __main__ - INFO - Hybrid data fetcher started
+2026-03-13 19:53:17,048 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-13 19:53:18,169 - websocket - INFO - Websocket connected
+2026-03-13 19:53:18,170 - __main__ - INFO - WebSocket connection opened
+2026-03-13 19:53:18,174 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-13 19:53:25,555 - __main__ - WARNING - WebSocket closed: None
+2026-03-13 19:53:25,556 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-13 19:53:25,682 - __main__ - INFO - WebSocket disconnected
+2026-03-13 19:53:25,683 - __main__ - INFO - Data fetcher stopped
+2026-03-13 19:53:25,951 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-13 19:53:25,951 - __main__ - INFO -   MA periods: 20/50
+2026-03-13 19:53:25,951 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-13 19:53:25,951 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-13 19:53:25,951 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99834777 (confidence: 0.00%)
+2026-03-13 19:53:25,951 - __main__ - INFO -   No signal: Deviation -0.062% within thresholds
+2026-03-13 19:53:25,952 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99855334 (confidence: 0.00%)
+2026-03-13 19:53:25,952 - __main__ - INFO -   No signal: Deviation -0.044% within thresholds
+2026-03-13 19:53:25,952 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99812748 (confidence: 0.00%)
+2026-03-13 19:53:25,952 - __main__ - INFO -   No signal: Deviation -0.082% within thresholds
+2026-03-13 19:53:25,952 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,952 - __main__ - INFO -   No signal: Deviation -0.091% within thresholds
+2026-03-13 19:53:25,953 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,953 - __main__ - INFO -   No signal: Deviation -0.089% within thresholds
+2026-03-13 19:53:25,953 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,953 - __main__ - INFO -   No signal: Deviation -0.088% within thresholds
+2026-03-13 19:53:25,953 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99831004 (confidence: 0.00%)
+2026-03-13 19:53:25,953 - __main__ - INFO -   No signal: Deviation -0.058% within thresholds
+2026-03-13 19:53:25,954 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99812224 (confidence: 0.00%)
+2026-03-13 19:53:25,954 - __main__ - INFO -   No signal: Deviation -0.076% within thresholds
+2026-03-13 19:53:25,954 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99863681 (confidence: 0.00%)
+2026-03-13 19:53:25,954 - __main__ - INFO -   No signal: Deviation -0.028% within thresholds
+2026-03-13 19:53:25,954 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99983721 (confidence: 0.00%)
+2026-03-13 19:53:25,954 - __main__ - INFO -   No signal: Deviation 0.085% within thresholds
+2026-03-13 19:53:25,954 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99932345 (confidence: 0.00%)
+2026-03-13 19:53:25,954 - __main__ - INFO -   No signal: Deviation 0.037% within thresholds
+2026-03-13 19:53:25,955 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99949715 (confidence: 0.00%)
+2026-03-13 19:53:25,955 - __main__ - INFO -   No signal: Deviation 0.056% within thresholds
+2026-03-13 19:53:25,955 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99929896 (confidence: 0.00%)
+2026-03-13 19:53:25,955 - __main__ - INFO -   No signal: Deviation 0.043% within thresholds
+2026-03-13 19:53:25,955 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,955 - __main__ - INFO -   No signal: Deviation -0.075% within thresholds
+2026-03-13 19:53:25,955 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,955 - __main__ - INFO -   No signal: Deviation -0.072% within thresholds
+2026-03-13 19:53:25,956 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,956 - __main__ - INFO -   No signal: Deviation -0.071% within thresholds
+2026-03-13 19:53:25,956 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99801032 (confidence: 0.00%)
+2026-03-13 19:53:25,956 - __main__ - INFO -   No signal: Deviation -0.065% within thresholds
+2026-03-13 19:53:25,956 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,956 - __main__ - INFO -   No signal: Deviation -0.054% within thresholds
+2026-03-13 19:53:25,957 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99846667 (confidence: 0.00%)
+2026-03-13 19:53:25,957 - __main__ - INFO -   No signal: Deviation -0.001% within thresholds
+2026-03-13 19:53:25,957 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99800000 (confidence: 0.00%)
+2026-03-13 19:53:25,957 - __main__ - INFO -   No signal: Deviation -0.043% within thresholds
+2026-03-13 19:53:25,957 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99926903 (confidence: 0.00%)
+2026-03-13 19:53:25,957 - __main__ - INFO -   No signal: Deviation 0.080% within thresholds
+2026-03-13 19:53:25,959 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00119289 (confidence: 95.00%)
+2026-03-13 19:53:25,959 - __main__ - INFO -   Mean Reversion SELL: Price 0.259% above MA | Above Upper Bollinger Band (Strong)
+2026-03-13 19:53:25,959 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00182150 (confidence: 95.00%)
+2026-03-13 19:53:25,959 - __main__ - INFO -   Mean Reversion SELL: Price 0.304% above MA | Above Upper Bollinger Band (Strong)
+2026-03-13 19:53:25,959 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-13 19:53:25,960 - __main__ - INFO -   Mean Reversion SELL: Price 0.301% above MA | Above Upper Bollinger Band (Strong)
+2026-03-13 19:53:25,961 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00150902 (confidence: 95.00%)
+2026-03-13 19:53:25,961 - __main__ - INFO -   Mean Reversion SELL: Price 0.235% above MA | Above Middle Bollinger Band (Mild)
+2026-03-13 19:53:25,961 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-13 19:53:25,961 - __main__ - INFO -   Mean Reversion SELL: Price 0.264% above MA | Above Middle Bollinger Band (Mild)
+2026-03-13 19:53:25,961 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00178135 (confidence: 95.00%)
+2026-03-13 19:53:25,962 - __main__ - INFO -   Mean Reversion SELL: Price 0.224% above MA | Above Middle Bollinger Band (Mild)
+2026-03-13 19:53:25,964 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00163080 (confidence: 0.00%)
+2026-03-13 19:53:25,964 - __main__ - INFO -   No signal: Deviation 0.192% within thresholds
+2026-03-13 19:53:25,964 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-13 19:53:25,964 - __main__ - INFO -   Mean Reversion SELL: Price 0.212% above MA | Above Middle Bollinger Band (Mild)
+2026-03-13 19:53:25,965 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-13 19:53:25,965 - __main__ - INFO -   Mean Reversion SELL: Price 0.201% above MA | Above Middle Bollinger Band (Mild)
+2026-03-13 19:53:25,965 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 19:53:25,965 - __main__ - INFO -   No signal: Deviation 0.188% within thresholds
+2026-03-13 19:53:25,965 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 19:53:25,965 - __main__ - INFO -   No signal: Deviation 0.175% within thresholds
+2026-03-13 19:53:25,966 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00076124 (confidence: 0.00%)
+2026-03-13 19:53:25,966 - __main__ - INFO -   No signal: Deviation 0.044% within thresholds
+2026-03-13 19:53:25,966 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00162697 (confidence: 0.00%)
+2026-03-13 19:53:25,966 - __main__ - INFO -   No signal: Deviation 0.112% within thresholds
+2026-03-13 19:53:25,966 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00193864 (confidence: 0.00%)
+2026-03-13 19:53:25,966 - __main__ - INFO -   No signal: Deviation 0.124% within thresholds
+2026-03-13 19:53:25,967 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00128216 (confidence: 0.00%)
+2026-03-13 19:53:25,967 - __main__ - INFO -   No signal: Deviation 0.042% within thresholds
+2026-03-13 19:53:25,967 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00144963 (confidence: 0.00%)
+2026-03-13 19:53:25,967 - __main__ - INFO -   No signal: Deviation 0.041% within thresholds
+2026-03-13 19:53:25,967 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00073053 (confidence: 0.00%)
+2026-03-13 19:53:25,974 - __main__ - INFO -   No signal: Deviation -0.044% within thresholds
+2026-03-13 19:53:25,974 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00143869 (confidence: 0.00%)
+2026-03-13 19:53:25,975 - __main__ - INFO -   No signal: Deviation 0.012% within thresholds
+2026-03-13 19:53:25,975 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00172639 (confidence: 0.00%)
+2026-03-13 19:53:25,975 - __main__ - INFO -   No signal: Deviation 0.022% within thresholds
+2026-03-13 19:53:25,975 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00068441 (confidence: 0.00%)
+2026-03-13 19:53:25,975 - __main__ - INFO -   No signal: Deviation -0.089% within thresholds
+2026-03-13 19:53:25,975 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00179977 (confidence: 0.00%)
+2026-03-13 19:53:25,976 - __main__ - INFO -   No signal: Deviation 0.019% within thresholds
+2026-03-13 19:53:25,976 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00186135 (confidence: 0.00%)
+2026-03-13 19:53:25,976 - __main__ - INFO -   No signal: Deviation 0.025% within thresholds
+2026-03-13 19:53:25,976 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00158888 (confidence: 0.00%)
+2026-03-13 19:53:25,976 - __main__ - INFO -   No signal: Deviation -0.000% within thresholds
+2026-03-13 19:53:25,976 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 19:53:25,976 - __main__ - INFO -   No signal: Deviation 0.038% within thresholds
+2026-03-13 19:53:25,977 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 19:53:25,977 - __main__ - INFO -   No signal: Deviation 0.038% within thresholds
+2026-03-13 19:53:25,977 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00130531 (confidence: 0.00%)
+2026-03-13 19:53:25,977 - __main__ - INFO -   No signal: Deviation -0.029% within thresholds
+2026-03-13 19:53:25,977 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00051625 (confidence: 0.00%)
+2026-03-13 19:53:25,977 - __main__ - INFO -   No signal: Deviation -0.102% within thresholds
+2026-03-13 19:53:25,977 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99837342 (confidence: 95.00%)
+2026-03-13 19:53:25,977 - __main__ - INFO -   Mean Reversion BUY: Price -0.298% below MA | Below Lower Bollinger Band (Strong)
+2026-03-13 19:53:25,978 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99951744 (confidence: 0.00%)
+2026-03-13 19:53:25,978 - __main__ - INFO -   No signal: Deviation -0.171% within thresholds
+2026-03-13 19:53:25,978 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00018134 (confidence: 0.00%)
+2026-03-13 19:53:25,979 - __main__ - INFO -   No signal: Deviation -0.096% within thresholds
+2026-03-13 19:53:25,979 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00027916 (confidence: 0.00%)
+2026-03-13 19:53:25,979 - __main__ - INFO -   No signal: Deviation -0.077% within thresholds
+2026-03-13 19:53:25,981 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-13 19:53:25,981 - __main__ - INFO -   Max position add: 50%
+2026-03-13 19:53:25,981 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-13 19:53:25,981 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-13 19:53:25,981 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-13 19:53:25,982 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-13 19:53:25,982 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-13 19:53:25,982 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-13 19:53:25,982 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-13 19:53:25,982 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-13 19:53:25,982 - __main__ - WARNING -    Size: $250.00
+2026-03-13 19:53:25,982 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-13 19:53:25,982 - __main__ - WARNING -    Current: 1.00100000
+2026-03-13 19:53:25,982 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-13 19:53:25,982 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-13 19:53:25,982 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-13 19:53:25,982 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-13 19:53:25,984 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-13 19:53:25,984 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-13 19:53:25,984 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-13 19:53:25,984 - __main__ - INFO -    Order ID: binance_1
+2026-03-13 19:53:25,985 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-13 19:53:25,985 - __main__ - INFO -    Fees: $0.7490
+2026-03-13 19:53:25,985 - __main__ - INFO -    Balance: $9499.90
+2026-03-13 19:53:25,986 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-13 19:53:25,987 - __main__ - INFO -    Order ID: binance_2
+2026-03-13 19:53:25,987 - __main__ - INFO - ✅ Order filled: 250.0000 USDTUSD @ 1.00100000
+2026-03-13 19:53:25,987 - __main__ - INFO -    Fees: $0.2502
+2026-03-13 19:53:25,987 - __main__ - INFO -    Balance: $9749.90
+2026-03-13 19:53:25,987 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-13 19:53:25,987 - __main__ - INFO -    Order ID: binance_3
+2026-03-13 21:18:21,463 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 2 symbols
+2026-03-13 21:18:21,463 - __main__ - INFO - Added callback: on_new_candle
+2026-03-13 21:18:21,463 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-13 21:18:22,592 - websocket - INFO - Websocket connected
+2026-03-13 21:18:22,593 - __main__ - INFO - WebSocket connection opened
+2026-03-13 21:18:22,683 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-13 21:18:53,043 - __main__ - WARNING - WebSocket closed: None
+2026-03-13 21:18:53,044 - __main__ - INFO - WebSocket disconnected
+2026-03-13 21:18:53,044 - __main__ - INFO - Reconnecting in 5s (attempt 1)
+2026-03-13 21:18:53,044 - __main__ - INFO - Initialized BinanceWebSocketFetcher for 1 symbols
+2026-03-13 21:18:53,044 - __main__ - INFO - Initialized HybridDataFetcher
+2026-03-13 21:18:53,044 - __main__ - INFO - Added callback: on_new_candle
+2026-03-13 21:18:53,044 - __main__ - INFO - Starting hybrid data fetcher...
+2026-03-13 21:18:53,044 - __main__ - INFO - Loading historical data for USDTUSD...
+2026-03-13 21:18:54,109 - __main__ - INFO - Fetching USDTUSD from Binance (2026-03-06 to 2026-03-13)
+2026-03-13 21:18:54,648 - __main__ - INFO - Fetched 169 candles from Binance
+2026-03-13 21:18:54,650 - __main__ - INFO - Loaded 169 historical candles for USDTUSD
+2026-03-13 21:18:54,650 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_1h...
+2026-03-13 21:18:55,746 - websocket - INFO - Websocket connected
+2026-03-13 21:18:55,747 - __main__ - INFO - WebSocket connection opened
+2026-03-13 21:18:55,781 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-13 21:18:55,782 - __main__ - INFO - Hybrid data fetcher started
+2026-03-13 21:18:58,047 - __main__ - INFO - Connecting to Binance WebSocket: wss://stream.binance.com:9443/ws/usdtusd@kline_5m/...
+2026-03-13 21:18:59,118 - websocket - INFO - Websocket connected
+2026-03-13 21:18:59,118 - __main__ - INFO - WebSocket connection opened
+2026-03-13 21:18:59,176 - __main__ - INFO - Successfully connected to Binance WebSocket
+2026-03-13 21:19:06,120 - __main__ - INFO - WebSocket disconnected
+2026-03-13 21:19:06,120 - __main__ - INFO - Data fetcher stopped
+2026-03-13 21:19:06,202 - __main__ - INFO - Initialized SignalGenerator for USDTUSD
+2026-03-13 21:19:06,202 - __main__ - INFO -   MA periods: 20/50
+2026-03-13 21:19:06,202 - __main__ - INFO -   Bollinger: 20x2.0σ
+2026-03-13 21:19:06,202 - __main__ - INFO -   Thresholds: BUY=-0.20%, SELL=0.20%
+2026-03-13 21:19:06,203 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00091299 (confidence: 0.00%)
+2026-03-13 21:19:06,203 - __main__ - INFO -   No signal: Deviation 0.169% within thresholds
+2026-03-13 21:19:06,203 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00103088 (confidence: 0.00%)
+2026-03-13 21:19:06,203 - __main__ - INFO -   No signal: Deviation 0.165% within thresholds
+2026-03-13 21:19:06,203 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00108194 (confidence: 0.00%)
+2026-03-13 21:19:06,203 - __main__ - INFO -   No signal: Deviation 0.158% within thresholds
+2026-03-13 21:19:06,203 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00002030 (confidence: 0.00%)
+2026-03-13 21:19:06,203 - __main__ - INFO -   No signal: Deviation 0.047% within thresholds
+2026-03-13 21:19:06,204 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-13 21:19:06,204 - __main__ - INFO -   Mean Reversion SELL: Price 0.230% above MA | Above Upper Bollinger Band (Strong)
+2026-03-13 21:19:06,204 - __main__ - INFO - USDTUSD Signal: SELL @ 1.00200000 (confidence: 95.00%)
+2026-03-13 21:19:06,204 - __main__ - INFO -   Mean Reversion SELL: Price 0.218% above MA | Above Middle Bollinger Band (Mild)
+2026-03-13 21:19:06,204 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00185895 (confidence: 0.00%)
+2026-03-13 21:19:06,204 - __main__ - INFO -   No signal: Deviation 0.192% within thresholds
+2026-03-13 21:19:06,205 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00199099 (confidence: 0.00%)
+2026-03-13 21:19:06,205 - __main__ - INFO -   No signal: Deviation 0.190% within thresholds
+2026-03-13 21:19:06,205 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00147170 (confidence: 0.00%)
+2026-03-13 21:19:06,205 - __main__ - INFO -   No signal: Deviation 0.124% within thresholds
+2026-03-13 21:19:06,205 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00164651 (confidence: 0.00%)
+2026-03-13 21:19:06,205 - __main__ - INFO -   No signal: Deviation 0.123% within thresholds
+2026-03-13 21:19:06,205 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,206 - __main__ - INFO -   No signal: Deviation 0.138% within thresholds
+2026-03-13 21:19:06,206 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00178488 (confidence: 0.00%)
+2026-03-13 21:19:06,206 - __main__ - INFO -   No signal: Deviation 0.102% within thresholds
+2026-03-13 21:19:06,206 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,206 - __main__ - INFO -   No signal: Deviation 0.107% within thresholds
+2026-03-13 21:19:06,206 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,206 - __main__ - INFO -   No signal: Deviation 0.090% within thresholds
+2026-03-13 21:19:06,206 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00122209 (confidence: 0.00%)
+2026-03-13 21:19:06,207 - __main__ - INFO -   No signal: Deviation 0.001% within thresholds
+2026-03-13 21:19:06,207 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00098921 (confidence: 0.00%)
+2026-03-13 21:19:06,207 - __main__ - INFO -   No signal: Deviation -0.031% within thresholds
+2026-03-13 21:19:06,207 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00070013 (confidence: 0.00%)
+2026-03-13 21:19:06,207 - __main__ - INFO -   No signal: Deviation -0.064% within thresholds
+2026-03-13 21:19:06,208 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,208 - __main__ - INFO -   No signal: Deviation 0.056% within thresholds
+2026-03-13 21:19:06,208 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00158869 (confidence: 0.00%)
+2026-03-13 21:19:06,208 - __main__ - INFO -   No signal: Deviation 0.010% within thresholds
+2026-03-13 21:19:06,209 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,209 - __main__ - INFO -   No signal: Deviation 0.048% within thresholds
+2026-03-13 21:19:06,209 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00186740 (confidence: 0.00%)
+2026-03-13 21:19:06,209 - __main__ - INFO -   No signal: Deviation 0.030% within thresholds
+2026-03-13 21:19:06,209 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00148288 (confidence: 0.00%)
+2026-03-13 21:19:06,209 - __main__ - INFO -   No signal: Deviation -0.010% within thresholds
+2026-03-13 21:19:06,209 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00090958 (confidence: 0.00%)
+2026-03-13 21:19:06,209 - __main__ - INFO -   No signal: Deviation -0.067% within thresholds
+2026-03-13 21:19:06,210 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00027860 (confidence: 0.00%)
+2026-03-13 21:19:06,210 - __main__ - INFO -   No signal: Deviation -0.131% within thresholds
+2026-03-13 21:19:06,210 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00028770 (confidence: 0.00%)
+2026-03-13 21:19:06,210 - __main__ - INFO -   No signal: Deviation -0.121% within thresholds
+2026-03-13 21:19:06,210 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99956698 (confidence: 0.00%)
+2026-03-13 21:19:06,210 - __main__ - INFO -   No signal: Deviation -0.181% within thresholds
+2026-03-13 21:19:06,210 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99962350 (confidence: 0.00%)
+2026-03-13 21:19:06,210 - __main__ - INFO -   No signal: Deviation -0.164% within thresholds
+2026-03-13 21:19:06,211 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00128849 (confidence: 0.00%)
+2026-03-13 21:19:06,211 - __main__ - INFO -   No signal: Deviation 0.005% within thresholds
+2026-03-13 21:19:06,211 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00082809 (confidence: 0.00%)
+2026-03-13 21:19:06,211 - __main__ - INFO -   No signal: Deviation -0.037% within thresholds
+2026-03-13 21:19:06,211 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,211 - __main__ - INFO -   No signal: Deviation 0.078% within thresholds
+2026-03-13 21:19:06,212 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00115309 (confidence: 0.00%)
+2026-03-13 21:19:06,212 - __main__ - INFO -   No signal: Deviation -0.003% within thresholds
+2026-03-13 21:19:06,212 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00066917 (confidence: 0.00%)
+2026-03-13 21:19:06,212 - __main__ - INFO -   No signal: Deviation -0.045% within thresholds
+2026-03-13 21:19:06,213 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00143543 (confidence: 0.00%)
+2026-03-13 21:19:06,213 - __main__ - INFO -   No signal: Deviation 0.034% within thresholds
+2026-03-13 21:19:06,213 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00112899 (confidence: 0.00%)
+2026-03-13 21:19:06,213 - __main__ - INFO -   No signal: Deviation 0.008% within thresholds
+2026-03-13 21:19:06,213 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00130236 (confidence: 0.00%)
+2026-03-13 21:19:06,213 - __main__ - INFO -   No signal: Deviation 0.025% within thresholds
+2026-03-13 21:19:06,214 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,214 - __main__ - INFO -   No signal: Deviation 0.089% within thresholds
+2026-03-13 21:19:06,214 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00059679 (confidence: 0.00%)
+2026-03-13 21:19:06,214 - __main__ - INFO -   No signal: Deviation -0.050% within thresholds
+2026-03-13 21:19:06,214 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00184588 (confidence: 0.00%)
+2026-03-13 21:19:06,214 - __main__ - INFO -   No signal: Deviation 0.075% within thresholds
+2026-03-13 21:19:06,214 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00200000 (confidence: 0.00%)
+2026-03-13 21:19:06,214 - __main__ - INFO -   No signal: Deviation 0.089% within thresholds
+2026-03-13 21:19:06,215 - __main__ - INFO - USDTUSD Signal: HOLD @ 1.00118681 (confidence: 0.00%)
+2026-03-13 21:19:06,215 - __main__ - INFO -   No signal: Deviation 0.011% within thresholds
+2026-03-13 21:19:06,215 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99996603 (confidence: 0.00%)
+2026-03-13 21:19:06,215 - __main__ - INFO -   No signal: Deviation -0.101% within thresholds
+2026-03-13 21:19:06,215 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99966806 (confidence: 0.00%)
+2026-03-13 21:19:06,215 - __main__ - INFO -   No signal: Deviation -0.122% within thresholds
+2026-03-13 21:19:06,215 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99888095 (confidence: 0.00%)
+2026-03-13 21:19:06,215 - __main__ - INFO -   No signal: Deviation -0.190% within thresholds
+2026-03-13 21:19:06,216 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99977105 (confidence: 0.00%)
+2026-03-13 21:19:06,216 - __main__ - INFO -   No signal: Deviation -0.099% within thresholds
+2026-03-13 21:19:06,216 - __main__ - INFO - USDTUSD Signal: BUY @ 0.99808938 (confidence: 95.00%)
+2026-03-13 21:19:06,216 - __main__ - INFO -   Mean Reversion BUY: Price -0.256% below MA | Below Lower Bollinger Band (Strong)
+2026-03-13 21:19:06,217 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99966722 (confidence: 0.00%)
+2026-03-13 21:19:06,217 - __main__ - INFO -   No signal: Deviation -0.099% within thresholds
+2026-03-13 21:19:06,217 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99865012 (confidence: 0.00%)
+2026-03-13 21:19:06,217 - __main__ - INFO -   No signal: Deviation -0.196% within thresholds
+2026-03-13 21:19:06,217 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922126 (confidence: 0.00%)
+2026-03-13 21:19:06,217 - __main__ - INFO -   No signal: Deviation -0.128% within thresholds
+2026-03-13 21:19:06,217 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99844213 (confidence: 0.00%)
+2026-03-13 21:19:06,217 - __main__ - INFO -   No signal: Deviation -0.194% within thresholds
+2026-03-13 21:19:06,218 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99829053 (confidence: 0.00%)
+2026-03-13 21:19:06,218 - __main__ - INFO -   No signal: Deviation -0.191% within thresholds
+2026-03-13 21:19:06,218 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99962958 (confidence: 0.00%)
+2026-03-13 21:19:06,218 - __main__ - INFO -   No signal: Deviation -0.049% within thresholds
+2026-03-13 21:19:06,218 - __main__ - INFO - USDTUSD Signal: HOLD @ 0.99922326 (confidence: 0.00%)
+2026-03-13 21:19:06,218 - __main__ - INFO -   No signal: Deviation -0.083% within thresholds
+2026-03-13 21:19:06,220 - __main__ - INFO - Initialized EnhancedRiskManager with position control
+2026-03-13 21:19:06,220 - __main__ - INFO -   Max position add: 50%
+2026-03-13 21:19:06,220 - __main__ - INFO - Position added: USDTUSD @ 0.99850000 ($500.00)
+2026-03-13 21:19:06,220 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-13 21:19:06,220 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-13 21:19:06,220 - __main__ - INFO - ℹ️  Existing position in USDTUSD: $500.00
+2026-03-13 21:19:06,220 - __main__ - WARNING - 🔌 System reconnected (attempt #1)
+2026-03-13 21:19:06,221 - __main__ - WARNING -    Checking for orphaned positions...
+2026-03-13 21:19:06,221 - __main__ - INFO - 🔄 Syncing positions with exchange...
+2026-03-13 21:19:06,221 - __main__ - WARNING - ⚠️  ORPHANED POSITION FOUND: USDCUSDT
+2026-03-13 21:19:06,221 - __main__ - WARNING -    Size: $250.00
+2026-03-13 21:19:06,221 - __main__ - WARNING -    Entry: 1.00050000
+2026-03-13 21:19:06,221 - __main__ - WARNING -    Current: 1.00100000
+2026-03-13 21:19:06,221 - __main__ - INFO - Position added: USDCUSDT @ 1.00050000 ($250.00)
+2026-03-13 21:19:06,221 - __main__ - WARNING - ⚠️  MISMATCH: We think we have USDTUSD but exchange doesn't!
+2026-03-13 21:19:06,221 - __main__ - ERROR - 🚨 Found 1 orphaned positions during reconnection!
+2026-03-13 21:19:06,221 - __main__ - ERROR -    Action: Review and manually close or acknowledge them
+2026-03-13 21:19:06,224 - __main__ - INFO - Initialized PaperTradingEngine on binance
+2026-03-13 21:19:06,224 - __main__ - INFO -   Initial balance: $10000.00
+2026-03-13 21:19:06,224 - __main__ - INFO - 📋 Order placed: BUY 500.0000 USDTUSD @ MARKET
+2026-03-13 21:19:06,224 - __main__ - INFO -    Order ID: binance_1
+2026-03-13 21:19:06,224 - __main__ - INFO - ✅ Order filled: 500.0000 USDTUSD @ 0.99869970
+2026-03-13 21:19:06,224 - __main__ - INFO -    Fees: $0.7490
+2026-03-13 21:19:06,224 - __main__ - INFO -    Balance: $9499.90
+2026-03-13 21:19:06,224 - __main__ - INFO - 📋 Order placed: SELL 250.0000 USDTUSD @ 1.0005
+2026-03-13 21:19:06,224 - __main__ - INFO -    Order ID: binance_2
+2026-03-13 21:19:06,224 - __main__ - INFO - 📋 Order placed: SELL 100.0000 USDTUSD @ 1.002
+2026-03-13 21:19:06,224 - __main__ - INFO -    Order ID: binance_3
