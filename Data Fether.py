@@ -2507,17 +2507,32 @@ class OrderManager:
 
 if __name__ == "__main__":
     
-    from paper_trading_engine import PaperTradingEngine
+    from complete_trading_engine import CompleteTradeingEngine
     
     print("\n" + "="*70)
-    print("ORDER MANAGER - EXAMPLE")
+    print("🚀 STARTING REAL TRADING ENGINE")
     print("="*70)
     
-    # Create paper trading engine
-    paper_engine = PaperTradingEngine(
-        initial_balance=10000.0,
-        exchange="binance"
+    engine = CompleteTradeingEngine(
+        symbols=["USDTUSD"],
+        interval="1h",
+        historical_days=7,
+        initial_balance=1000000.0,
+        exchange="binance",
+        verbose=True
     )
+    
+    print("\n✅ Trading engine initialized")
+    print("💰 Account: $1,000,000")
+    print("📊 Symbol: USDTUSD")
+    print("⏰ Interval: 1 hour")
+    print("\n🟢 Starting trading...\n")
+    
+    try:
+        engine.start_trading(duration=86400*365)
+    except KeyboardInterrupt:
+        print("\n\n⏹️ Trading stopped by user")
+        engine.print_final_summary()
     
     # Create order manager
     om = OrderManager(
