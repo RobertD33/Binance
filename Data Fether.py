@@ -2505,85 +2505,51 @@ class OrderManager:
 # EXAMPLE USAGE
 # ==========================================
 
+# ==========================================
+# REAL TRADING ENGINE - MAIN EXECUTION
+# ==========================================
 if __name__ == "__main__":
     
     from complete_trading_engine import CompleteTradeingEngine
+    import sys
     
     print("\n" + "="*70)
     print("🚀 STARTING REAL TRADING ENGINE")
     print("="*70)
-    
-    engine = CompleteTradeingEngine(
-        symbols=["USDTUSD"],
-        interval="1h",
-        historical_days=7,
-        initial_balance=1000000.0,
-        exchange="binance",
-        verbose=True
-    )
-    
-    print("\n✅ Trading engine initialized")
-    print("💰 Account: $1,000,000")
-    print("📊 Symbol: USDTUSD")
-    print("⏰ Interval: 1 hour")
-    print("\n🟢 Starting trading...\n")
+    print(f"Start Time: {datetime.now()}")
+    print("="*70 + "\n")
     
     try:
-        engine.start_trading(duration=86400*365)
+        # Create trading engine with $1M account
+        engine = CompleteTradeingEngine(
+            symbols=["USDTUSD"],
+            interval="1h",
+            historical_days=7,
+            initial_balance=1000000.0,
+            exchange="binance",
+            verbose=True
+        )
+        
+        print("\n✅ Trading engine initialized successfully!")
+        print("💰 Account Size: $1,000,000")
+        print("📊 Trading Symbol: USDTUSD")
+        print("⏰ Timeframe: 1 Hour")
+        print("\n🟢 Starting live trading (24/7)...\n")
+        
+        # Run trading engine indefinitely
+        engine.start_trading(duration=86400*365)  # 1 year
+        
     except KeyboardInterrupt:
-        print("\n\n⏹️ Trading stopped by user")
-        engine.print_final_summary()
+        print("\n\n⏹️  Trading stopped by user")
+        if 'engine' in locals():
+            engine.print_final_summary()
+        sys.exit(0)
     
-    # Create order manager
-    om = OrderManager(
-        mode="paper",
-        exchange="binance",
-        paper_trading_engine=paper_engine
-    )
+    except Exception as e:
+        print(f"\n❌ ERROR: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
     
-    # Example 1: Market buy
-    print("\n" + "-"*70)
-    print("Example 1: Market Buy")
-    print("-"*70)
-    
-    trade_id = om.execute_trade(
-        symbol="USDTUSD",
-        side="BUY",
-        quantity=500.0,
-        order_type="MARKET"
-    )
-    
-    # Process fill at current market price
-    om.process_fills({'USDTUSD': 0.9985})
-    
-    # Example 2: Limit sell
-    print("\n" + "-"*70)
-    print("Example 2: Limit Sell")
-    print("-"*70)
-    
-    trade_id = om.execute_trade(
-        symbol="USDTUSD",
-        side="SELL",
-        quantity=250.0,
-        order_type="LIMIT",
-        price=1.0010
-    )
-    
-    # Price reaches limit - fill
-    om.process_fills({'USDTUSD': 1.0015})
-    
-    # Example 3: Close position
-    print("\n" + "-"*70)
-    print("Example 3: Close Position")
-    print("-"*70)
-    
-    om.close_position(
-        symbol="USDTUSD",
-        order_type="MARKET"
-    )
-    
-    # Process final fill
-    om.process_fills({'USDTUSD': 1.0008})
-    
-    # Print status
-    om.print_status()   
+  
