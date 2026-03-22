@@ -1276,7 +1276,7 @@ class EnhancedRiskManager:
     
     def __init__(
         self,
-        initial_balance: float = 10000.0,
+        initial_balance: float = 1000000.0,
         max_risk_per_trade: float = 0.02,
         max_daily_loss: float = 0.05,
         max_drawdown: float = 0.10,
@@ -1462,7 +1462,7 @@ if __name__ == "__main__":
     
     # Create manager
     rm = EnhancedRiskManager(
-        initial_balance=10000.0,
+        initial_balance=1000000.0,
         max_position_add_percent=0.50
     )
     
@@ -1838,7 +1838,7 @@ class PaperTradingEngine:
     
     def __init__(
         self,
-        initial_balance: float = 10000.0,
+        initial_balance: float = 1000000.0,
         exchange: str = "binance",
         verbose: bool = True
     ):
@@ -2502,16 +2502,13 @@ class OrderManager:
 
 
 # ==========================================
-# EXAMPLE USAGE
-# ==========================================
-
-# ==========================================
 # REAL TRADING ENGINE - MAIN EXECUTION
 # ==========================================
 if __name__ == "__main__":
     
     from complete_trading_engine import CompleteTradeingEngine
     import sys
+    from datetime import datetime
     
     print("\n" + "="*70)
     print("🚀 STARTING REAL TRADING ENGINE")
@@ -2523,7 +2520,7 @@ if __name__ == "__main__":
         # Create trading engine with $1M account
         engine = CompleteTradeingEngine(
             symbols=["USDTUSD"],
-            interval="1h",
+            interval="5m",
             historical_days=7,
             initial_balance=1000000.0,
             exchange="binance",
@@ -2533,7 +2530,7 @@ if __name__ == "__main__":
         print("\n✅ Trading engine initialized successfully!")
         print("💰 Account Size: $1,000,000")
         print("📊 Trading Symbol: USDTUSD")
-        print("⏰ Timeframe: 1 Hour")
+        print("⏰ Timeframe: 5 Minutes")
         print("\n🟢 Starting live trading (24/7)...\n")
         
         # Run trading engine indefinitely
@@ -2550,6 +2547,5 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
         sys.exit(1)
-
     
   
