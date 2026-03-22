@@ -2505,47 +2505,17 @@ class OrderManager:
 # REAL TRADING ENGINE - MAIN EXECUTION
 # ==========================================
 if __name__ == "__main__":
-    
-    from complete_trading_engine import CompleteTradeingEngine
-    import sys
-    from datetime import datetime
-    
     print("\n" + "="*70)
-    print("🚀 STARTING REAL TRADING ENGINE")
-    print("="*70)
-    print(f"Start Time: {datetime.now()}")
+    print("🚀 STARTING TRADING BOT")
     print("="*70 + "\n")
     
+    # Trading is already running above via callbacks
+    # Just print status
+    import time
     try:
-        # Create trading engine with $1M account
-        engine = CompleteTradeingEngine(
-            symbols=["USDTUSD"],
-            interval="5m",
-            historical_days=7,
-            initial_balance=1000000.0,
-            exchange="binance",
-            verbose=True
-        )
-        
-        print("\n✅ Trading engine initialized successfully!")
-        print("💰 Account Size: $1,000,000")
-        print("📊 Trading Symbol: USDTUSD")
-        print("⏰ Timeframe: 5 Minutes")
-        print("\n🟢 Starting live trading (24/7)...\n")
-        
-        # Run trading engine indefinitely
-        engine.start_trading(duration=86400*365)  # 1 year
-        
+        while True:
+            time.sleep(60)
     except KeyboardInterrupt:
-        print("\n\n⏹️  Trading stopped by user")
-        if 'engine' in locals():
-            engine.print_final_summary()
-        sys.exit(0)
-    
-    except Exception as e:
-        print(f"\n❌ ERROR: {e}")
-        import traceback
-        traceback.print_exc()
-        sys.exit(1)
+        print("\n⏹️  Trading stopped")
     
   
