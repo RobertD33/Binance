@@ -2104,7 +2104,7 @@ if __name__ == "__main__":
     
     # Create paper trading engine
     engine = PaperTradingEngine(
-        initial_balance=10000.0,
+        initial_balance=1000000.0,
         exchange="binance",
         verbose=True
     )
