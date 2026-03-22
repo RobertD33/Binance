@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 class CompleteTradeingEngine:
     """Complete trading engine integrating all modules"""
     
-    def __init__(self, symbols=None, interval="5m", historical_days=7, initial_balance=10000.0, exchange="binance", verbose=True):
+    def __init__(self, symbols=None, interval="5m", historical_days=7, initial_balance=1000000.0, exchange="binance", verbose=True):
         if symbols is None:
             symbols = ["USDTUSD"]
         
