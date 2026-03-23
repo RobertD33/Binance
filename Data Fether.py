@@ -478,54 +478,50 @@ if __name__ == "__main__":
     print("="*60)
     
     def on_new_candle(data: PriceData):
-        print(f"{data.symbol}: Close={data.close}, Volume={data.volume}")
+    """Process new candle and generate trading signals"""
     
-    ws_fetcher = BinanceWebSocketFetcher(
-        symbols=["USDTUSD", "USDCUSDT"],
-        interval="5m"
+    symbol = data.symbol
+    current_price = data.close
+    
+    # Get price history
+    prices = [c.close for c in ws_fetcher.get_buffer(symbol)]
+    
+    if len(prices) < 50:
+        return  # Need enough data
+    
+    # Generate signal
+    signal = signal_generator.process_candle(prices, data.timestamp)
+    
+    if not signal or signal.signal_type == SignalType.HOLD:
+        return  # No signal
+    
+    # Validate trade
+    validation = risk_manager.validate_trade(
+        symbol=symbol,
+        signal_type=signal.signal_type.value,
+        signal_price=current_price,
+        signal_confidence=signal.confidence
     )
-    ws_fetcher.add_callback(on_new_candle)
     
-    try:
-        ws_fetcher.connect()
-        
-        # Run for 30 seconds
-        import time
-        time.sleep(30)
-        
-        # Get latest data
-        for symbol in ["usdtusd", "usdcusdt"]:
-            latest = ws_fetcher.get_latest(symbol)
-            if latest:
-                print(f"\nLatest {symbol}: {latest.close}")
-        
-        # Get buffer
-        buffer = ws_fetcher.get_buffer("usdtusd", limit=5)
-        print(f"\nLast 5 candles for USDTUSD:")
-        for candle in buffer:
-            print(f"  {datetime.fromtimestamp(candle.timestamp/1000)}: {candle.close}")
+    if not validation.is_valid:
+        return  # Trade rejected
     
-    finally:
-        ws_fetcher.disconnect()
+    # Execute trade
+    trade_size = validation.trade_size
     
-    # Example 2: Hybrid (historical + real-time)
-    print("\n" + "="*60)
-    print("Example 2: Hybrid Data Fetcher")
-    print("="*60)
+    logger.info(f"\n🟢 TRADE SIGNAL: {signal.signal_type.value} {symbol}")
+    logger.info(f"   Price: {current_price:.8f}")
+    logger.info(f"   Position Size: ${trade_size.position_size:.2f}")
     
-    hybrid = HybridDataFetcher(
-        symbols=["USDTUSD"],
-        interval="1h",
-        historical_days=7
+    order_mgr.execute_trade(
+        symbol=symbol,
+        side=signal.signal_type.value,
+        quantity=trade_size.contracts,
+        order_type="MARKET"
     )
-    hybrid.add_callback(on_new_candle)
     
-    try:
-        hybrid.start()
-        time.sleep(10)
-    finally:
-        hybrid.stop()
-
+    order_mgr.process_fills({symbol: current_price})   
+   
 """
 Signal Generator Module
 Generates BUY/SELL signals based on mean reversion strategy
