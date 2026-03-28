@@ -478,49 +478,52 @@ if __name__ == "__main__":
     print("="*60)
     
     def on_new_candle(data: PriceData):
+    def on_new_candle(data: PriceData):
     """Process new candle and generate trading signals"""
     
-    symbol = data.symbol
-    current_price = data.close
+        symbol = data.symbol
+        current_price = data.close
     
     # Get price history
-    prices = [c.close for c in ws_fetcher.get_buffer(symbol)]
+        prices = [c.close for c in ws_fetcher.get_buffer(symbol)]
     
-    if len(prices) < 50:
-        return  # Need enough data
+        if len(prices) < 50:
+            return  # Need enough data
     
     # Generate signal
-    signal = signal_generator.process_candle(prices, data.timestamp)
+        signal = signal_generator.process_candle(prices, data.timestamp)
     
-    if not signal or signal.signal_type == SignalType.HOLD:
-        return  # No signal
+        if not signal or signal.signal_type == SignalType.HOLD:
+            return  # No signal
     
     # Validate trade
-    validation = risk_manager.validate_trade(
-        symbol=symbol,
-        signal_type=signal.signal_type.value,
-        signal_price=current_price,
-        signal_confidence=signal.confidence
-    )
+        validation = risk_manager.validate_trade(
+            symbol=symbol,
+            signal_type=signal.signal_type.value,
+            signal_price=current_price,
+            signal_confidence=signal.confidence
+        )
     
-    if not validation.is_valid:
-        return  # Trade rejected
+        if not validation.is_valid:
+            return  # Trade rejected
     
     # Execute trade
-    trade_size = validation.trade_size
+        trade_size = validation.trade_size
     
-    logger.info(f"\n🟢 TRADE SIGNAL: {signal.signal_type.value} {symbol}")
-    logger.info(f"   Price: {current_price:.8f}")
-    logger.info(f"   Position Size: ${trade_size.position_size:.2f}")
+        logger.info(f"\n🟢 TRADE SIGNAL: {signal.signal_type.value} {symbol}")
+        logger.info(f"   Price: {current_price:.8f}")
+        logger.info(f"   Position Size: ${trade_size.position_size:.2f}")
     
-    order_mgr.execute_trade(
-        symbol=symbol,
-        side=signal.signal_type.value,
-        quantity=trade_size.contracts,
-        order_type="MARKET"
-    )
+        order_mgr.execute_trade(
+            symbol=symbol,
+            side=signal.signal_type.value,
+            quantity=trade_size.contracts,
+            order_type="MARKET"
+        )
     
-    order_mgr.process_fills({symbol: current_price})   
+        order_mgr.process_fills({symbol: current_price})
+     
+    
    
 """
 Signal Generator Module
