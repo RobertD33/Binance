@@ -478,25 +478,24 @@ if __name__ == "__main__":
     print("="*60)
     
     def on_new_candle(data: PriceData):
-    def on_new_candle(data: PriceData):
-    """Process new candle and generate trading signals"""
+        """Process new candle and generate trading signals"""
     
         symbol = data.symbol
         current_price = data.close
     
-    # Get price history
+        # Get price history
         prices = [c.close for c in ws_fetcher.get_buffer(symbol)]
     
         if len(prices) < 50:
             return  # Need enough data
     
-    # Generate signal
+        # Generate signal
         signal = signal_generator.process_candle(prices, data.timestamp)
     
         if not signal or signal.signal_type == SignalType.HOLD:
             return  # No signal
     
-    # Validate trade
+        # Validate trade
         validation = risk_manager.validate_trade(
             symbol=symbol,
             signal_type=signal.signal_type.value,
@@ -507,7 +506,7 @@ if __name__ == "__main__":
         if not validation.is_valid:
             return  # Trade rejected
     
-    # Execute trade
+        # Execute trade
         trade_size = validation.trade_size
     
         logger.info(f"\n🟢 TRADE SIGNAL: {signal.signal_type.value} {symbol}")
