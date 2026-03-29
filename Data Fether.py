@@ -2504,16 +2504,17 @@ class OrderManager:
 # ==========================================
 if __name__ == "__main__":
     print("\n" + "="*70)
-    print("🚀 STARTING TRADING BOT")
+    print("🚀 STARTING REAL TRADING BOT")
     print("="*70 + "\n")
     
-    # Trading is already running above via callbacks
-    # Just print status
-    import time
     try:
+        # Keep bot running forever
+        import time
         while True:
-            time.sleep(60)
+            time.sleep(60)  # Check every minute
+            # The on_new_candle callback handles all trading
+            
     except KeyboardInterrupt:
-        print("\n⏹️  Trading stopped")
-    
+        print("\n⏹️  Trading bot stopped")
+        sys.exit(0)
   
