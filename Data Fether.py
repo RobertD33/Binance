@@ -2516,15 +2516,10 @@ if __name__ == "__main__":
         # Keep bot running forever
         # The on_new_candle callback handles all trading automatically
         while True:
-            time.sleep(1)  # Small sleep to prevent CPU overuse
+            time.sleep(1)
             
     except KeyboardInterrupt:
         print("\n⏹️  Trading bot stopped by user")
         logger.info("⏹️  Trading bot stopped by user")
         sys.exit(0)
-        
-    except Exception as e:
-        print(f"\n❌ Error: {e}")
-        logger.error(f"❌ Error: {e}")
-        sys.exit(1)
   
