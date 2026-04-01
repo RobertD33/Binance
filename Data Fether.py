@@ -2503,18 +2503,28 @@ class OrderManager:
 # REAL TRADING ENGINE - MAIN EXECUTION
 # ==========================================
 if __name__ == "__main__":
+    import time
+    import sys
+    
     print("\n" + "="*70)
-    print("🚀 STARTING REAL TRADING BOT")
+    print("🚀 TRADING BOT STARTED - RUNNING 24/7")
     print("="*70 + "\n")
+    
+    logger.info("🚀 TRADING BOT STARTED - RUNNING 24/7")
     
     try:
         # Keep bot running forever
-        import time
+        # The on_new_candle callback handles all trading automatically
         while True:
-            time.sleep(60)  # Check every minute
-            # The on_new_candle callback handles all trading
+            time.sleep(1)  # Small sleep to prevent CPU overuse
             
     except KeyboardInterrupt:
-        print("\n⏹️  Trading bot stopped")
+        print("\n⏹️  Trading bot stopped by user")
+        logger.info("⏹️  Trading bot stopped by user")
         sys.exit(0)
+        
+    except Exception as e:
+        print(f"\n❌ Error: {e}")
+        logger.error(f"❌ Error: {e}")
+        sys.exit(1)
   
